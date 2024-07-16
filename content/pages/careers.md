@@ -2,23 +2,17 @@
 title: Careers
 slug: careers
 sections:
-  - title:
-      text: A team that works closely together
+  - type: GenericSection
+    title:
+      text: Join Our Team
       color: text-dark
-      styles:
-        self:
-          textAlign: center
       type: TitleBlock
-    subtitle: Section subtitle
+    subtitle: Be Part of Something Bigger
     text: >
-      There are many variations of passages of Lorem Ipsum available, but the
-      majority have suffered alteration in some form, by injected humour, or
-      randomised words which don't look even slightly believable. If you are
-      going to use a passage of Lorem Ipsum, you need to be sure there isn't
-      anything embarrassing hidden in the middle of text.
+      At Man and Man Enterprise, we are dedicated to innovation and sustainability. Our mission is to provide high-quality, efficient cookstoves that make a positive impact on the environment and the lives of our customers. Join us and help shape a better future.
     actions:
-      - label: See open positions
-        url: /
+      - label: See Open Positions
+        url: /careers
         icon: arrowRight
         iconPosition: right
         style: primary
@@ -38,17 +32,18 @@ sections:
         textAlign: center
       subtitle:
         textAlign: center
-    type: GenericSection
     backgroundImage:
       type: BackgroundImage
-      altText: altText of the image
+      altText: Teamwork Background
       backgroundSize: cover
       backgroundPosition: center
       backgroundRepeat: no-repeat
       opacity: 100
-      url: /images/abstract-background.svg
-  - title:
-      text: Meet the team
+      url: /images/teamwork-background.jpg
+
+  - type: FeaturedPeopleSection
+    title:
+      text: Meet the Team
       color: text-dark
       styles:
         self:
@@ -73,22 +68,22 @@ sections:
         justifyContent: center
       subtitle:
         textAlign: center
-    type: FeaturedPeopleSection
-  - title:
-      text: Open positions
+
+  - type: FeaturedItemsSection
+    title:
+      text: Open Positions
       color: text-dark
       styles:
         self:
           textAlign: center
       type: TitleBlock
-    subtitle: Subtitle goes here
+    subtitle: Join Our Growing Team
     items:
-      - title: Account Executive
-        subtitle: Sales
-        text: >-
-          Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-          accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae.
-          explicabo.
+      - type: FeaturedItem
+        title: Product Manager
+        subtitle: Operations
+        text: >
+          We are looking for a dynamic Product Manager to oversee the development and management of our innovative cookstove products. Join us in creating solutions that make a difference.
         colors: bg-neutral-fg-dark
         styles:
           self:
@@ -101,32 +96,12 @@ sections:
             borderRadius: x-large
             flexDirection: row
             justifyContent: center
-        type: FeaturedItem
-      - title: Open Source Engineer
-        subtitle: Marketing
-        text: >-
-          Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-          accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae.
-          explicabo.
-        colors: bg-neutral-fg-dark
-        styles:
-          self:
-            padding:
-              - pt-8
-              - pl-8
-              - pb-8
-              - pr-8
-            textAlign: left
-            borderRadius: x-large
-            flexDirection: row
-            justifyContent: center
-        type: FeaturedItem
-      - title: Senior Software Engineer
+
+      - type: FeaturedItem
+        title: Open Source Engineer
         subtitle: Engineering
-        text: >-
-          Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-          accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae.
-          explicabo.
+        text: >
+          Join our engineering team to contribute to our open source projects. Work with cutting-edge technology and help us build sustainable solutions.
         colors: bg-neutral-fg-dark
         styles:
           self:
@@ -135,12 +110,31 @@ sections:
               - pl-8
               - pb-8
               - pr-8
+            textAlign: left
             borderRadius: x-large
             flexDirection: row
-        type: FeaturedItem
+            justifyContent: center
+
+      - type: FeaturedItem
+        title: Senior Software Engineer
+        subtitle: Engineering
+        text: >
+          We are seeking a Senior Software Engineer to lead our development team. Bring your expertise and help us create innovative and efficient cooking solutions.
+        colors: bg-neutral-fg-dark
+        styles:
+          self:
+            padding:
+              - pt-8
+              - pl-8
+              - pb-8
+              - pr-8
+            textAlign: left
+            borderRadius: x-large
+            flexDirection: row
+
     actions:
-      - label: Apply now
-        url: /
+      - label: Apply Now
+        url: /apply
         icon: arrowRight
         iconPosition: right
         style: primary
@@ -157,10 +151,10 @@ sections:
         justifyContent: center
       subtitle:
         textAlign: center
-    type: FeaturedItemsSection
+
 seo:
-  metaTitle: Careers - Demo site
-  metaDescription: This is the careers page built with Netlify Create.
+  metaTitle: Careers - Man and Man Enterprise
+  metaDescription: Join Man and Man Enterprise to contribute to innovative and efficient cookstove solutions that enhance cooking experiences and reduce environmental impact.
   socialImage: /images/main-hero.jpg
   type: Seo
 type: PageLayout
