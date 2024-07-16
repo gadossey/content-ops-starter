@@ -289,426 +289,414 @@ sections:
       subtitle:
         textAlign: left
   - title:
-      text: Social Media Management
-      color: text-dark
-      type: TitleBlock
-    subtitle: Increase Your Reach
-    text: >
-      Enhance your online presence with our expert social media management services. We help you engage with your audience and build a strong brand identity.
-    actions:
-      - label: Get started
-        url: /social-media-management
-        icon: arrowRight
-        iconPosition: right
-        style: secondary
-        type: Button
-      - label: See Tutorials
-        url: /tutorials
-        showIcon: true
-        icon: arrowRight
-        iconPosition: right
-        style: primary
-        type: Link
-    media:
-      url: /images/hero2.svg
-      altText: Social Media Management
-      type: ImageBlock
-    badge:
-      label: This is a badge
-      color: text-primary
-      type: Badge
-    colors: bg-light-fg-dark
-    styles:
-      self:
-        alignItems: center
-    type: GenericSection
-  - title:
-      text: Business Consulting
-      color: text-dark
-      type: TitleBlock
-    subtitle: Be in Good Company
-    text: >
-      Our business consulting services provide advice and guidance to startups and small businesses, helping them achieve their goals and grow sustainably.
-    actions:
-      - label: Get started
-        url: /business-consulting
-        icon: arrowRight
-        iconPosition: right
-        style: secondary
-        type: Button
-      - label: See Tutorials
-        url: /tutorials
-        showIcon: true
-        icon: arrowRight
-        iconPosition: right
-        style: primary
-        type: Link
-    media:
-      url: /images/hero3.svg
-      altText: Business Consulting
-      type: ImageBlock
-    badge:
-      label: This is a badge
-      color: text-primary
-      type: Badge
-    colors: bg-light-fg-dark
-    styles:
-      self:
-        alignItems: center
-        flexDirection: row-reverse
-    type: GenericSection
-  - title: Divider
-    colors: bg-light-fg-dark
-    styles:
-      self:
-        padding:
-          - pt-7
-          - pl-7
-          - pb-7
-          - pr-7
-    type: DividerSection
-  - type: CarouselSection
-    title: null
-    subtitle: What Our Customers Say About Us
-    items:
-      - title: >-
-          “A designer knows he has achieved perfection not when there is nothing
-          left to add, but when there is nothing left to take away.”
-        tagline: Testimonial 1
-        subtitle: 'Maria Walters, Company'
-        text: >-
-          Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-          accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae.
-          explicabo.
-        image:
-          url: /images/person-placeholder-light.png
-          altText: Maria Walters
-          styles:
-            self:
-              borderRadius: full
-          type: ImageBlock
-        actions: []
-        colors: bg-neutralAlt-fg-dark
+    text: Efficient Cookstove Solutions
+    color: text-dark
+    type: TitleBlock
+  subtitle: Enhance Your Cooking Experience
+  text: >
+    Improve your cooking efficiency with our innovative cookstove solutions. We help you save fuel costs, reduce environmental impact, and promote healthier cooking methods.
+  actions:
+    - label: Get started
+      url: /cookstove-solutions
+      icon: arrowRight
+      iconPosition: right
+      style: secondary
+      type: Button
+    - label: Learn More
+      url: /learn-more
+      showIcon: true
+      icon: arrowRight
+      iconPosition: right
+      style: primary
+      type: Link
+  media:
+    url: /images/hero2.svg
+    altText: Efficient Cookstove Solutions
+    type: ImageBlock
+  badge:
+    label: Saving 40% Fuel
+    color: text-primary
+    type: Badge
+  colors: bg-light-fg-dark
+  styles:
+    self:
+      alignItems: center
+  type: GenericSection
+
+- title:
+    text: Community Development
+    color: text-dark
+    type: TitleBlock
+  subtitle: Empowering Local Artisans
+  text: >
+    Our community development programs train and employ local artisans, enhancing their skills and providing sustainable employment opportunities.
+  actions:
+    - label: Get started
+      url: /community-development
+      icon: arrowRight
+      iconPosition: right
+      style: secondary
+      type: Button
+    - label: See Programs
+      url: /programs
+      showIcon: true
+      icon: arrowRight
+      iconPosition: right
+      style: primary
+      type: Link
+  media:
+    url: /images/hero3.svg
+    altText: Community Development
+    type: ImageBlock
+  badge:
+    label: Empowering Communities
+    color: text-primary
+    type: Badge
+  colors: bg-light-fg-dark
+  styles:
+    self:
+      alignItems: center
+      flexDirection: row-reverse
+  type: GenericSection
+
+- title: Divider
+  colors: bg-light-fg-dark
+  styles:
+    self:
+      padding:
+        - pt-7
+        - pl-7
+        - pb-7
+        - pr-7
+  type: DividerSection
+
+- type: CarouselSection
+  title: null
+  subtitle: What Our Customers Say About Us
+  items:
+    - title: >-
+        “The improved cookstove has significantly reduced our fuel costs and made cooking much easier.”
+      tagline: Testimonial 1
+      subtitle: 'Sarah K., Customer'
+      text: >-
+        The cookstove has cut our charcoal use by half, saving us money and time. It's a great investment for any household.
+      image:
+        url: /images/person-placeholder-light.png
+        altText: Sarah K.
         styles:
           self:
-            padding:
-              - pt-9
-              - pb-9
-              - pl-9
-              - pr-9
-            textAlign: left
-            borderRadius: large
-            flexDirection: row
-            justifyContent: center
-        type: FeaturedItem
-      - title: >-
-          "Design is a plan for arranging elements in such a way as best to accomplish a particular purpose."
-        tagline: Testimonial 2
-        subtitle: 'John Doe, Company'
-        text: >-
-          Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-          accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae.
-          explicabo.
-        image:
-          url: /images/person-placeholder-light.png
-          altText: John Doe
-          styles:
-            self:
-              borderRadius: full
-          type: ImageBlock
-        actions: []
-        colors: bg-neutralAlt-fg-dark
-        styles:
-          self:
-            padding:
-              - pt-9
-              - pb-9
-              - pl-9
-              - pr-9
-            textAlign: left
-            borderRadius: large
-            flexDirection: row
-            justifyContent: center
-        type: FeaturedItem
-      - title: >-
-          "Design is how it works, how it functions. Good design doesn't just make a product aesthetically pleasing, it makes it a pleasure to use."
-        tagline: Testimonial 3
-        subtitle: 'Maria Walters, Company'
-        text: >-
-          Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-          accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae.
-          explicabo.
-        image:
-          url: /images/person-placeholder-light.png
-          altText: Maria Walters
-          styles:
-            self:
-              borderRadius: full
-          type: ImageBlock
-        actions: []
-        colors: bg-neutralAlt-fg-dark
-        styles:
-          self:
-            padding:
-              - pt-9
-              - pb-9
-              - pl-9
-              - pr-9
-            textAlign: left
-            borderRadius: large
-            flexDirection: row
-            justifyContent: center
-        type: FeaturedItem
-      - title: >-
-          “A designer knows he has achieved perfection not when there is nothing
-          left to add, but when there is nothing left to take away.”
-        tagline: Testimonial 4
-        subtitle: 'Maria Walters, Company'
-        text: >-
-          Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-          accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae.
-          explicabo.
-        image:
-          url: /images/person-placeholder-light.png
-          altText: Maria Walters
-          styles:
-            self:
-              borderRadius: full
-          type: ImageBlock
-        actions: []
-        colors: bg-neutralAlt-fg-dark
-        styles:
-          self:
-            padding:
-              - pt-9
-              - pb-9
-              - pl-9
-              - pr-9
-            textAlign: left
-            borderRadius: large
-            flexDirection: row
-            justifyContent: center
-        type: FeaturedItem
-      - title: >-
-          "Design can be art. Design can be aesthetics. Design is so simple, that's why it is so complicated."
-        tagline: Testimonial 5
-        subtitle: 'Jane Walters, Company'
-        text: >-
-          Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-          accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae.
-          explicabo.
-        image:
-          url: /images/person-placeholder-light.png
-          altText: Maria Walters
-          styles:
-            self:
-              borderRadius: full
-          type: ImageBlock
-        actions: []
-        colors: bg-neutralAlt-fg-dark
-        styles:
-          self:
-            padding:
-              - pt-9
-              - pb-9
-              - pl-9
-              - pr-9
-            textAlign: left
-            borderRadius: large
-            flexDirection: row
-            justifyContent: center
-        type: FeaturedItem
-      - title: >-
-          “Quote from some important person goes right here. I love using Netlify Create.”
-        tagline: Testimonial 6
-        subtitle: 'Jane Doe, Company'
-        text: >-
-          Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-          accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae.
-          explicabo.
-        image:
-          url: /images/img-placeholder-dark.png
-          altText: Jane Doe
-          styles:
-            self:
-              borderRadius: full
-          type: ImageBlock
-        actions: []
-        colors: bg-dark-fg-light
-        styles:
-          self:
-            padding:
-              - pt-9
-              - pb-9
-              - pl-9
-              - pr-9
-            textAlign: left
-            borderRadius: large
-            flexDirection: row
-            justifyContent: center
-        type: FeaturedItem
-    elementId: null
-    variant: next-prev-nav
-    colors: bg-light-fg-dark
-    styles:
-      self:
-        justifyContent: center
-      subtitle:
-        textAlign: center
-  - title:
-      text: List of Features
-      color: text-primary
-      styles:
-        self:
-          textAlign: center
-      type: TitleBlock
-    subtitle: Featured Items Section
-    items:
-      - title: Feature Item One
-        tagline: This is the tagline
-        subtitle: This is the item subtitle
-        text: |
-          Follow the tutorial to build your first Netlify Create site.
-        image:
-          url: /images/abstract-feature1.svg
-          altText: Placeholder Image
-          styles:
-            self:
-              borderRadius: x-large
-          type: ImageBlock
-        colors: bg-light-fg-dark
-        styles:
-          self:
-            padding:
-              - pt-8
-              - pl-8
-              - pb-8
-              - pr-8
-            borderRadius: x-large
-            flexDirection: col
-        type: FeaturedItem
-      - title: Feature Item Two
-        tagline: This is the tagline
-        subtitle: This is the item subtitle
-        text: |
-          Follow the tutorial to build your first awesome Netlify Create site.
-        image:
-          url: /images/abstract-feature2.svg
-          altText: Placeholder image
-          styles:
-            self:
-              borderRadius: x-large
-          type: ImageBlock
-        colors: bg-light-fg-dark
-        styles:
-          self:
-            padding:
-              - pt-8
-              - pl-8
-              - pb-8
-              - pr-8
-            borderRadius: x-large
-            flexDirection: col
-        type: FeaturedItem
-      - title: Feature Item Three
-        tagline: This is the tagline
-        subtitle: This is the item subtitle
-        text: |
-          Learn from the tutorial and build your first awesome Netlify Create site.
-        image:
-          url: /images/abstract-feature1.svg
-          altText: Placeholder image
-          styles:
-            self:
-              borderRadius: x-large
-          type: ImageBlock
-        colors: bg-light-fg-dark
-        styles:
-          self:
-            padding:
-              - pt-8
-              - pl-8
-              - pb-8
-              - pr-8
-            borderRadius: x-large
-            flexDirection: col
-        type: FeaturedItem
-    variant: three-col-grid
-    colors: bg-neutral-fg-dark
-    styles:
-      self:
-        padding:
-          - pt-16
-          - pl-8
-          - pb-16
-          - pr-8
-        justifyContent: center
-      subtitle:
-        textAlign: center
-    type: FeaturedItemsSection
-  - title:
-      text: Generic Section With A Form
-      color: text-dark
-      type: TitleBlock
-    subtitle: Section with a Form
-    text: |-
-      Aenean eros ipsum, interdum quis dignissim non, sollicitudin vitae nisl.
-      Aenean vel aliquet elit, at blandit ipsum. Sed eleifend felis sit amet
-      erat molestie, hendrerit malesuada justo ultrices. Nunc volutpat at erat
-      vitae interdum. Ut nec massa eget lorem blandit condimentum et at risus.
-    media:
-      fields:
-        - name: name
-          label: Name
-          hideLabel: true
-          placeholder: Your name
-          isRequired: true
-          width: full
-          type: TextFormControl
-        - name: email
-          label: Email
-          hideLabel: true
-          placeholder: Your email
-          isRequired: true
-          width: full
-          type: EmailFormControl
-        - name: message
-          label: Message
-          hideLabel: true
-          placeholder: Your message
-          width: full
-          type: TextareaFormControl
-      elementId: contact-form
+            borderRadius: full
+        type: ImageBlock
+      actions: []
+      colors: bg-neutralAlt-fg-dark
       styles:
         self:
           padding:
-            - pt-6
-            - pb-6
-            - pl-6
-            - pr-6
-          borderColor: border-dark
-          borderStyle: solid
-          borderWidth: 1
+            - pt-9
+            - pb-9
+            - pl-9
+            - pr-9
+          textAlign: left
           borderRadius: large
-      type: FormBlock
-      submitButton:
-        type: SubmitButtonFormControl
-        label: Submit
-        showIcon: false
-        icon: arrowRight
-        iconPosition: right
-        style: primary
-        elementId: null
-    badge:
-      label: Contact Us
-      color: text-primary
-      type: Badge
-    colors: bg-light-fg-dark
-    type: GenericSection
+          flexDirection: row
+          justifyContent: center
+      type: FeaturedItem
+    - title: >-
+        "This stove has been a game changer for our restaurant, improving efficiency and reducing costs."
+      tagline: Testimonial 2
+      subtitle: 'John D., Restaurant Owner'
+      text: >-
+        We have seen a 40% reduction in our charcoal expenses since switching to the improved cookstove.
+      image:
+        url: /images/person-placeholder-light.png
+        altText: John D.
+        styles:
+          self:
+            borderRadius: full
+        type: ImageBlock
+      actions: []
+      colors: bg-neutralAlt-fg-dark
+      styles:
+        self:
+          padding:
+            - pt-9
+            - pb-9
+            - pl-9
+            - pr-9
+          textAlign: left
+          borderRadius: large
+          flexDirection: row
+          justifyContent: center
+      type: FeaturedItem
+    - title: >-
+        "Efficient, cost-saving, and environmentally friendly - these stoves are a must-have."
+      tagline: Testimonial 3
+      subtitle: 'Maria W., Customer'
+      text: >-
+        The improved cookstove has not only reduced our cooking fuel costs but also contributed to a cleaner environment.
+      image:
+        url: /images/person-placeholder-light.png
+        altText: Maria W.
+        styles:
+          self:
+            borderRadius: full
+        type: ImageBlock
+      actions: []
+      colors: bg-neutralAlt-fg-dark
+      styles:
+        self:
+          padding:
+            - pt-9
+            - pb-9
+            - pl-9
+            - pr-9
+          textAlign: left
+          borderRadius: large
+          flexDirection: row
+          justifyContent: center
+      type: FeaturedItem
+    - title: >-
+        “The best investment for our household, reducing costs and promoting cleaner cooking.”
+      tagline: Testimonial 4
+      subtitle: 'Emily R., Customer'
+      text: >-
+        Our family has benefited greatly from the improved cookstove. It's efficient and environmentally friendly.
+      image:
+        url: /images/person-placeholder-light.png
+        altText: Emily R.
+        styles:
+          self:
+            borderRadius: full
+        type: ImageBlock
+      actions: []
+      colors: bg-neutralAlt-fg-dark
+      styles:
+        self:
+          padding:
+            - pt-9
+            - pb-9
+            - pl-9
+            - pr-9
+          textAlign: left
+          borderRadius: large
+          flexDirection: row
+          justifyContent: center
+      type: FeaturedItem
+    - title: >-
+        "Improving lives with efficient cookstoves - a great initiative by Man and Man Enterprise."
+      tagline: Testimonial 5
+      subtitle: 'Jane W., Customer'
+      text: >-
+        These cookstoves are durable, efficient, and have made cooking much easier for us.
+      image:
+        url: /images/person-placeholder-light.png
+        altText: Jane W.
+        styles:
+          self:
+            borderRadius: full
+        type: ImageBlock
+      actions: []
+      colors: bg-neutralAlt-fg-dark
+      styles:
+        self:
+          padding:
+            - pt-9
+            - pb-9
+            - pl-9
+            - pr-9
+          textAlign: left
+          borderRadius: large
+          flexDirection: row
+          justifyContent: center
+      type: FeaturedItem
+    - title: >-
+        “Man and Man Enterprise's cookstoves have made a significant positive impact on our community.”
+      tagline: Testimonial 6
+      subtitle: 'John M., Community Leader'
+      text: >-
+        The introduction of these cookstoves has greatly reduced our community's reliance on traditional cooking methods, promoting healthier and more sustainable practices.
+      image:
+        url: /images/img-placeholder-dark.png
+        altText: John M.
+        styles:
+          self:
+            borderRadius: full
+        type: ImageBlock
+      actions: []
+      colors: bg-dark-fg-light
+      styles:
+        self:
+          padding:
+            - pt-9
+            - pb-9
+            - pl-9
+            - pr-9
+          textAlign: left
+          borderRadius: large
+          flexDirection: row
+          justifyContent: center
+      type: FeaturedItem
+  elementId: null
+  variant: next-prev-nav
+  colors: bg-light-fg-dark
+  styles:
+    self:
+      justifyContent: center
+    subtitle:
+      textAlign: center
+
+- title:
+    text: List of Features
+    color: text-primary
+    styles:
+      self:
+        textAlign: center
+    type: TitleBlock
+  subtitle: Featured Items Section
+  items:
+    - title: Improved Efficiency
+      tagline: Save Fuel Costs
+      subtitle: Reduce Charcoal Usage
+      text: |
+        Our cookstoves help you save up to 40% on charcoal expenses while providing efficient cooking solutions.
+      image:
+        url: /images/abstract-feature1.svg
+        altText: Improved Efficiency
+        styles:
+          self:
+            borderRadius: x-large
+        type: ImageBlock
+      colors: bg-light-fg-dark
+      styles:
+        self:
+          padding:
+            - pt-8
+            - pl-8
+            - pb-8
+            - pr-8
+          borderRadius: x-large
+          flexDirection: col
+      type: FeaturedItem
+    - title: Community Empowerment
+      tagline: Training and Employment
+      subtitle: Supporting Local Artisans
+      text: |
+        We provide training and employment opportunities for local artisans, contributing to sustainable community development.
+      image:
+        url: /images/abstract-feature2.svg
+        altText: Community Empowerment
+        styles:
+          self:
+            borderRadius: x-large
+        type: ImageBlock
+      colors: bg-light-fg-dark
+      styles:
+        self:
+          padding:
+            - pt-8
+            - pl-8
+            - pb-8
+            - pr-8
+          borderRadius: x-large
+          flexDirection: col
+      type: FeaturedItem
+    - title: Environmental Conservation
+      tagline: Reduce Emissions
+ subtitle: Protect Forests
+      text: |
+        By using our efficient cookstoves, you help reduce deforestation and decrease greenhouse gas emissions, promoting a healthier planet.
+      image:
+        url: /images/abstract-feature1.svg
+        altText: Environmental Conservation
+        styles:
+          self:
+            borderRadius: x-large
+        type: ImageBlock
+      colors: bg-light-fg-dark
+      styles:
+        self:
+          padding:
+            - pt-8
+            - pl-8
+            - pb-8
+            - pr-8
+          borderRadius: x-large
+          flexDirection: col
+      type: FeaturedItem
+  variant: three-col-grid
+  colors: bg-neutral-fg-dark
+  styles:
+    self:
+      padding:
+        - pt-16
+        - pl-8
+        - pb-16
+        - pr-8
+      justifyContent: center
+    subtitle:
+      textAlign: center
+  type: FeaturedItemsSection
+
+- title:
+    text: Get in Touch
+    color: text-dark
+    type: TitleBlock
+  subtitle: Contact Us for More Information
+  text: |-
+    Have questions or need more details about our products and services? Reach out to us, and we'll be happy to assist you.
+  media:
+    fields:
+      - name: name
+        label: Name
+        hideLabel: true
+        placeholder: Your name
+        isRequired: true
+        width: full
+        type: TextFormControl
+      - name: email
+        label: Email
+        hideLabel: true
+        placeholder: Your email
+        isRequired: true
+        width: full
+        type: EmailFormControl
+      - name: message
+        label: Message
+        hideLabel: true
+        placeholder: Your message
+        width: full
+        type: TextareaFormControl
+    elementId: contact-form
+    styles:
+      self:
+        padding:
+          - pt-6
+          - pb-6
+          - pl-6
+          - pr-6
+        borderColor: border-dark
+        borderStyle: solid
+        borderWidth: 1
+        borderRadius: large
+    type: FormBlock
+    submitButton:
+      type: SubmitButtonFormControl
+      label: Submit
+      showIcon: false
+      icon: arrowRight
+      iconPosition: right
+      style: primary
+      elementId: null
+  badge:
+    label: Contact Us
+    color: text-primary
+    type: Badge
+  colors: bg-light-fg-dark
+  type: GenericSection
+
 seo:
-  metaTitle: Home - Man and Man Enterprise
+  metaTitle: Man and Man Enterprise
   metaDescription: Discover Man and Man Enterprise's innovative and efficient cookstoves designed to enhance cooking experiences while reducing environmental impact.
   socialImage: /images/main-hero.jpg
   type: Seo
 type: PageLayout
----

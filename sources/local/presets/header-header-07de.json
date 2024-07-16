@@ -95,17 +95,6 @@
                         "style": "secondary",
                         "elementId": null,
                         "$$type": "Button"
-                    },
-                    {
-                        "label": "Log in",
-                        "altText": null,
-                        "url": "/",
-                        "showIcon": null,
-                        "icon": "arrowRight",
-                        "iconPosition": "right",
-                        "style": "primary",
-                        "elementId": null,
-                        "$$type": "Button"
                     }
                 ],
                 "variant": "logo-left-primary-nav-centered",
