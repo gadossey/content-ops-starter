@@ -66,7 +66,7 @@ sections:
         text: >-
           Our cookstoves reduce charcoal consumption by 50%, helping households save on fuel costs and contributing to environmental sustainability.
         actions: []
-        elementId: null
+        elementId: ''
         colors: bg-neutralAlt-fg-dark
         styles:
           self:
@@ -288,7 +288,7 @@ sections:
           borderWidth: 1
           borderRadius: large
       type: VideoBlock
-    elementId: null
+    elementId: ''
     colors: bg-light-fg-dark
     styles:
       self:
@@ -327,13 +327,10 @@ sections:
       label: Eco-Friendly
       color: text-primary
       type: Badge
-    colors: bg-light-fg-darkContinuing with the YAML content, ensuring correct indentation and structure:
-
-```yaml
+    colors: bg-light-fg-dark
     styles:
       self:
         alignItems: center
-    type: GenericSection
 
   - type: GenericSection
     title:
@@ -553,8 +550,7 @@ sections:
             flexDirection: row
             justifyContent: center
         type: FeaturedItem
-
-    elementId: null
+    elementId: ''
     variant: next-prev-nav
     colors: bg-light-fg-dark
     styles:
@@ -649,14 +645,6 @@ sections:
     styles:
       self:
         padding:
-          - pt-Sure, let's continue with the corrected YAML content ensuring correct indentation and structure:
-
-```yaml
-    variant: three-col-grid
-    colors: bg-neutral-fg-dark
-    styles:
-      self:
-        padding:
           - pt-16
           - pl-8
           - pb-16
@@ -723,9 +711,10 @@ sections:
     colors: bg-light-fg-dark
 
 seo:
-  metaTitle: Man and Man Enterprise
+  metaTitle: Home - Man and Man Enterprise
   metaDescription: Discover Man and Man Enterprise's innovative and efficient cookstoves designed to enhance cooking experiences while reducing environmental impact.
   socialImage: /images/main-hero.jpg
   type: Seo
 
 type: PageLayout
+---
