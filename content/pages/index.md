@@ -215,7 +215,7 @@ sections:
       Our cookstoves are designed to be efficient, durable, and environmentally friendly, providing a reliable cooking solution for households and businesses.
     media:
       title: Watch Our Story
-      url: /videos/our-story.mp4
+      url: https://youtu.be/W37KiK27EIk
       controls: true
       aspectRatio: '16:9'
       styles:
@@ -262,7 +262,7 @@ sections:
     actions: []
     media:
       title: See Our Technology
-      url: /videos/technology.mp4
+      url: https://youtu.be/W37KiK27EIk
       autoplay: true
       loop: true
       muted: true
