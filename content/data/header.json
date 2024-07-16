@@ -4,15 +4,17 @@
         "altText": "Logo dark",
         "styles": {
             "self": {
-                "margin": ["mr-3"]
+                "margin": [
+                    "mr-3"
+                ]
             }
         },
         "type": "ImageBlock"
     },
     "primaryLinks": [
         {
-            "label": "Pricing",
-            "url": "/pricing",
+            "label": "Our Work",
+            "url": "/our-work",
             "icon": "arrowRight",
             "iconPosition": "right",
             "style": "secondary",
@@ -37,28 +39,28 @@
             "type": "Link"
         },
         {
-            "label": "Dropdown",
-            "altText": "Dropdown",
+            "label": "More",
+            "altText": "More options",
             "links": [
                 {
-                    "label": "Dropdown item",
-                    "url": "/",
+                    "label": "Community Impact",
+                    "url": "/community-impact",
                     "icon": "arrowRight",
                     "iconPosition": "right",
                     "style": "secondary",
                     "type": "Link"
                 },
                 {
-                    "label": "Dropdown item",
-                    "url": "/",
+                    "label": "Sustainability",
+                    "url": "/sustainability",
                     "icon": "arrowRight",
                     "iconPosition": "right",
                     "style": "secondary",
                     "type": "Link"
                 },
                 {
-                    "label": "Dropdown item",
-                    "url": "/",
+                    "label": "Contact Us",
+                    "url": "/contact",
                     "icon": "arrowRight",
                     "iconPosition": "right",
                     "style": "secondary",
@@ -73,7 +75,7 @@
         {
             "label": "Sign up",
             "altText": "Sign up",
-            "url": "/",
+            "url": "/sign-up",
             "icon": "arrowRight",
             "iconPosition": "right",
             "style": "secondary",
@@ -81,7 +83,7 @@
         },
         {
             "label": "Log in",
-            "url": "/",
+            "url": "/log-in",
             "icon": "arrowRight",
             "iconPosition": "right",
             "style": "primary",
