@@ -160,29 +160,12 @@ sections:
         justifyContent: center
       subtitle:
         textAlign: center
-  - subtitle: Award-winning Enterprises Trust Us
+  - subtitle: Our Partners
     images:
-      - url: /images/empathy-logo.svg
-        altText: Empathy logo
+      - url: /images/logo-aera.svg
+        altText: Aera Logo
         type: ImageBlock
-      - url: /images/wellster-logo.svg
-        altText: Wellster logo
-        type: ImageBlock
-      - url: /images/vise-logo.svg
-        altText: Vise logo
-        type: ImageBlock
-      - url: /images/telus-logo.svg
-        altText: Telus logo
-        type: ImageBlock
-      - url: /images/contentful-logo.svg
-        altText: Contentful logo
-        type: ImageBlock
-      - url: /images/sanity-logo.svg
-        altText: Sanity logo
-        type: ImageBlock
-      - url: /images/rangle-logo.svg
-        altText: Rangle logo
-        type: ImageBlock
+     
     motion: move-to-left
     colors: bg-light-fg-dark
     styles:
