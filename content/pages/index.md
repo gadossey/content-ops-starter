@@ -4,14 +4,12 @@ slug: /
 sections:
   - type: GenericSection
     title:
-      text: Unblock your team boost your time to production
+      text: Enhancing Cooking Efficiency for Every Household
       color: text-dark
       type: TitleBlock
-    subtitle: Subtitle goes here
+    subtitle: Sustainable and Efficient Cookstoves
     text: >
-      A Netlify Create website is a git repo that you own. Every code commit is
-      instantly reflected in the visual editor and since every visual edit is a
-      git commit, git workflows and collaboration just work.
+      Man and Man Enterprise is committed to providing high-quality, efficient cookstoves that reduce fuel consumption and emissions, enhancing the cooking experience for households and businesses in Ghana.
     actions:
       - label: Get started
         altText: ''
@@ -22,9 +20,9 @@ sections:
         style: secondary
         elementId: ''
         type: Button
-      - label: See Tutorials
+      - label: See Our Products
         altText: ''
-        url: /
+        url: /products
         showIcon: true
         icon: arrowRight
         iconPosition: right
@@ -33,11 +31,11 @@ sections:
         type: Link
     media:
       url: /images/main-hero.svg
-      altText: Unblock your team boost your time to production preview
+      altText: Enhancing Cooking Efficiency for Every Household
       elementId: ''
       type: ImageBlock
     badge:
-      label: This is a badge
+      label: Eco-Friendly Solutions
       color: text-primary
       type: Badge
     elementId: ''
@@ -59,15 +57,13 @@ sections:
         self:
           textAlign: center
       type: TitleBlock
-    subtitle: Subtitle goes here
+    subtitle: Discover the Advantages of Our Cookstoves
     items:
       - type: FeaturedItem
-        title: 500k
-        subtitle: Numbers Done
+        title: 50% Reduced Charcoal Usage
+        subtitle: Save on Fuel Costs
         text: >-
-          Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-          accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae.
-          explicabo.
+          Our cookstoves reduce charcoal consumption by 50%, helping households save on fuel costs and contributing to environmental sustainability.
         actions: []
         elementId: null
         colors: bg-neutralAlt-fg-dark
@@ -84,21 +80,19 @@ sections:
             textAlign: left
         image:
           type: ImageBlock
-          altText: Lightning bolt symbol on red background
+          altText: Reduced Charcoal Usage
           elementId: ''
           url: /images/icon1.svg
           styles:
             self:
               borderRadius: x-large
-      - title: 20x
-        subtitle: The Job Stuff
+      - title: 47,244 Tons CO2 Reduction
+        subtitle: Environmental Impact
         text: >-
-          Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-          accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae.
-          explicabo.
+          Our improved cookstoves have significantly reduced greenhouse gas emissions, with an annual reduction of 47,244 tons of CO2.
         image:
           url: /images/icon2.svg
-          altText: Featured icon two
+          altText: CO2 Reduction
           elementId: ''
           type: ImageBlock
         actions: []
@@ -115,15 +109,13 @@ sections:
             textAlign: left
             justifyContent: center
         type: FeaturedItem
-      - title: 200%
-        subtitle: Faster
+      - title: 70,000 Cookstoves Sold
+        subtitle: Wide Reach
         text: >-
-          Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-          accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae.
-          explicabo.
+          We have successfully sold over 70,000 cookstoves, positively impacting numerous households and reducing deforestation.
         image:
           url: /images/icon3.svg
-          altText: Featured icon three
+          altText: Cookstoves Sold
           elementId: ''
           type: ImageBlock
         actions: []
@@ -139,9 +131,9 @@ sections:
             flexDirection: row
         type: FeaturedItem
     actions:
-      - label: Get started
+      - label: Learn More
         altText: ''
-        url: /
+        url: /benefits
         showIcon: false
         icon: arrowRight
         iconPosition: right
@@ -149,7 +141,7 @@ sections:
         elementId: ''
         type: Button
     badge:
-      label: This is a badge
+      label: Trusted by Thousands
       color: text-primary
       styles:
         self:
@@ -168,7 +160,7 @@ sections:
         justifyContent: center
       subtitle:
         textAlign: center
-  - subtitle: Award winning enterprises trust us
+  - subtitle: Award-winning Enterprises Trust Us
     images:
       - url: /images/empathy-logo.svg
         altText: Empathy logo
@@ -182,7 +174,7 @@ sections:
       - url: /images/telus-logo.svg
         altText: Telus logo
         type: ImageBlock
-      - url: /images/contenful-logo.svg
+      - url: /images/contentful-logo.svg
         altText: Contentful logo
         type: ImageBlock
       - url: /images/sanity-logo.svg
@@ -229,22 +221,19 @@ sections:
           - pr-7
     type: DividerSection
   - title:
-      text: Grow your business 10x faster
+      text: Grow Your Business with Our Solutions
       color: text-dark
       styles:
         self:
           textAlign: center
       type: TitleBlock
-    subtitle: This is a subtitle
+    subtitle: Sustainable and Efficient Cookstoves
     text: |-
-      Aenean eros ipsum, interdum quis dignissim non, sollicitudin vitae nisl.
-      Aenean vel aliquet elit, at blandit ipsum. Sed eleifend felis sit amet
-      erat molestie, hendrerit malesuada justo ultrices. Nunc volutpat at erat
-      vitae interdum. Ut nec massa eget lorem blandit condimentum et at risus.
+      Our cookstoves are designed to be efficient, durable, and environmentally friendly, providing a reliable cooking solution for households and businesses.
     media:
-      title: Title of the video
-      url: /images/placeholder-video.mp4
-      controls: false
+      title: Watch Our Story
+      url: /videos/our-story.mp4
+      controls: true
       aspectRatio: '16:9'
       styles:
         self:
@@ -258,11 +247,11 @@ sections:
           borderWidth: 1
           borderRadius: large
       type: VideoBlock
-      autoplay: true
-      loop: true
-      muted: true
+      autoplay: false
+      loop: false
+      muted: false
     badge:
-      label: Key Benefits
+      label: Watch Now
       color: text-primary
       styles:
         self:
@@ -278,26 +267,23 @@ sections:
     type: GenericSection
   - type: GenericSection
     title:
-      text: Generic section with a video
+      text: Innovative Cookstove Technology
       color: text-dark
       styles:
         self:
           textAlign: left
       type: TitleBlock
-    subtitle: Section with a video subtitle
+    subtitle: Leading the Way in Clean Cooking
     text: |-
-      Aenean eros ipsum, interdum quis dignissim non, sollicitudin vitae nisl.
-      Aenean vel aliquet elit, at blandit ipsum. Sed eleifend felis sit amet
-      erat molestie, hendrerit malesuada justo ultrices. Nunc volutpat at erat
-      vitae interdum. Ut nec massa eget lorem blandit condimentum et at risus.
+      Man and Man Enterprise is a leader in producing efficient, durable cookstoves that save on fuel costs and reduce emissions. Discover our innovative technology and commitment to sustainability.
     actions: []
     media:
-      title: Title of the video
-      url: /images/placeholder-video.mp4
+      title: See Our Technology
+      url: /videos/technology.mp4
       autoplay: true
       loop: true
       muted: true
-      controls: false
+      controls: true
       aspectRatio: '16:9'
       styles:
         self:
@@ -323,19 +309,18 @@ sections:
       text: Social Media Management
       color: text-dark
       type: TitleBlock
-    subtitle: Increase your reach
+    subtitle: Increase Your Reach
     text: >
-      A service that helps businesses to manage their social media accounts and
-      posts.
+      Enhance your online presence with our expert social media management services. We help you engage with your audience and build a strong brand identity.
     actions:
       - label: Get started
-        url: /
+        url: /social-media-management
         icon: arrowRight
         iconPosition: right
         style: secondary
         type: Button
       - label: See Tutorials
-        url: /
+        url: /tutorials
         showIcon: true
         icon: arrowRight
         iconPosition: right
@@ -343,7 +328,7 @@ sections:
         type: Link
     media:
       url: /images/hero2.svg
-      altText: Fun feature preview
+      altText: Social Media Management
       type: ImageBlock
     badge:
       label: This is a badge
@@ -358,19 +343,18 @@ sections:
       text: Business Consulting
       color: text-dark
       type: TitleBlock
-    subtitle: Be in good company
+    subtitle: Be in Good Company
     text: >
-      A service that provides advice and guidance to startups and small
-      businesses.
+      Our business consulting services provide advice and guidance to startups and small businesses, helping them achieve their goals and grow sustainably.
     actions:
       - label: Get started
-        url: /
+        url: /business-consulting
         icon: arrowRight
         iconPosition: right
         style: secondary
         type: Button
       - label: See Tutorials
-        url: /
+        url: /tutorials
         showIcon: true
         icon: arrowRight
         iconPosition: right
@@ -378,7 +362,7 @@ sections:
         type: Link
     media:
       url: /images/hero3.svg
-      altText: Dope design preview
+      altText: Business Consulting
       type: ImageBlock
     badge:
       label: This is a badge
@@ -402,7 +386,7 @@ sections:
     type: DividerSection
   - type: CarouselSection
     title: null
-    subtitle: What our customers say about us
+    subtitle: What Our Customers Say About Us
     items:
       - title: >-
           “A designer knows he has achieved perfection not when there is nothing
@@ -589,13 +573,13 @@ sections:
       subtitle:
         textAlign: center
   - title:
-      text: List of features here
+      text: List of Features
       color: text-primary
       styles:
         self:
           textAlign: center
       type: TitleBlock
-    subtitle: Featured items section subtitle
+    subtitle: Featured Items Section
     items:
       - title: Feature Item One
         tagline: This is the tagline
@@ -683,7 +667,7 @@ sections:
       text: Generic Section With A Form
       color: text-dark
       type: TitleBlock
-    subtitle: Section with a form subtitle
+    subtitle: Section with a Form
     text: |-
       Aenean eros ipsum, interdum quis dignissim non, sollicitudin vitae nisl.
       Aenean vel aliquet elit, at blandit ipsum. Sed eleifend felis sit amet
@@ -739,8 +723,8 @@ sections:
     colors: bg-light-fg-dark
     type: GenericSection
 seo:
-  metaTitle: Home - Demo site
-  metaDescription: This demo site is built with Netlify Create.
+  metaTitle: Home - Man and Man Enterprise
+  metaDescription: Discover Man and Man Enterprise's innovative and efficient cookstoves designed to enhance cooking experiences while reducing environmental impact.
   socialImage: /images/main-hero.jpg
   type: Seo
 type: PageLayout
