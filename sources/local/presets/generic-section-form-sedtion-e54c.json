@@ -2,17 +2,17 @@
     "model": "GenericSection",
     "presets": [
         {
-            "label": "Form section",
+            "label": "Contact Form Section",
             "locale": null,
             "data": {
                 "title": {
-                    "text": "Generic Section With A Form",
+                    "text": "Get in Touch",
                     "color": "text-dark",
                     "styles": null,
                     "$$type": "TitleBlock"
                 },
-                "subtitle": "Section with a form subtitle",
-                "text": "Aenean eros ipsum, interdum quis dignissim non, sollicitudin vitae nisl.\nAenean vel aliquet elit, at blandit ipsum. Sed eleifend felis sit amet\nerat molestie, hendrerit malesuada justo ultrices. Nunc volutpat at erat\nvitae interdum. Ut nec massa eget lorem blandit condimentum et at risus.",
+                "subtitle": "We'd love to hear from you",
+                "text": "Whether you have a question about our products or services, or you're interested in partnering with us, we're here to help. Reach out to us today!",
                 "actions": [],
                 "media": {
                     "fields": [
@@ -56,7 +56,12 @@
                     "elementId": "contact-form",
                     "styles": {
                         "self": {
-                            "padding": ["pt-6", "pb-6", "pl-6", "pr-6"],
+                            "padding": [
+                                "pt-6",
+                                "pb-6",
+                                "pl-6",
+                                "pr-6"
+                            ],
                             "borderColor": "border-dark",
                             "borderStyle": "solid",
                             "borderWidth": 1,
@@ -76,7 +81,7 @@
                 "backgroundImage": null,
                 "styles": null
             },
-            "thumbnail": "images/generic-section-form-sedtion-e54c.png"
+            "thumbnail": "images/generic-section-form-section-e54c.png"
         }
     ]
 }
