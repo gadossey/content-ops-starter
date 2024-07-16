@@ -288,37 +288,33 @@ sections:
         justifyContent: center
       subtitle:
         textAlign: left
- ---
-title: Home
-slug: home
-sections:
   - title:
-      text: Efficient Cookstoves for a Sustainable Future
+      text: Social Media Management
       color: text-dark
       type: TitleBlock
-    subtitle: Empowering Communities, Protecting the Environment
+    subtitle: Increase Your Reach
     text: >
-      Man and Man Enterprise is dedicated to providing efficient and sustainable cooking solutions for urban and rural communities in Ghana. Our improved cookstoves reduce charcoal consumption, save money, and protect the environment.
+      Enhance your online presence with our expert social media management services. We help you engage with your audience and build a strong brand identity.
     actions:
-      - label: Learn More
-        url: /our-work
+      - label: Get started
+        url: /social-media-management
         icon: arrowRight
         iconPosition: right
         style: secondary
         type: Button
-      - label: Contact Us
-        url: /contact
+      - label: See Tutorials
+        url: /tutorials
         showIcon: true
         icon: arrowRight
         iconPosition: right
         style: primary
         type: Link
     media:
-      url: /images/cookstove-hero.svg
-      altText: Efficient Cookstoves
+      url: /images/hero2.svg
+      altText: Social Media Management
       type: ImageBlock
     badge:
-      label: Sustainable Solutions
+      label: This is a badge
       color: text-primary
       type: Badge
     colors: bg-light-fg-dark
@@ -327,32 +323,32 @@ sections:
         alignItems: center
     type: GenericSection
   - title:
-      text: Community Impact
+      text: Business Consulting
       color: text-dark
       type: TitleBlock
-    subtitle: Making a Difference
+    subtitle: Be in Good Company
     text: >
-      Our initiatives have positively impacted thousands of households by reducing cooking costs and improving health conditions. We also provide training and employment opportunities for local artisans.
+      Our business consulting services provide advice and guidance to startups and small businesses, helping them achieve their goals and grow sustainably.
     actions:
-      - label: Our Impact
-        url: /community-impact
+      - label: Get started
+        url: /business-consulting
         icon: arrowRight
         iconPosition: right
         style: secondary
         type: Button
-      - label: Join Us
-        url: /careers
+      - label: See Tutorials
+        url: /tutorials
         showIcon: true
         icon: arrowRight
         iconPosition: right
         style: primary
         type: Link
     media:
-      url: /images/community-impact.svg
-      altText: Community Impact
+      url: /images/hero3.svg
+      altText: Business Consulting
       type: ImageBlock
     badge:
-      label: Empowering Lives
+      label: This is a badge
       color: text-primary
       type: Badge
     colors: bg-light-fg-dark
@@ -376,14 +372,17 @@ sections:
     subtitle: What Our Customers Say About Us
     items:
       - title: >-
-          “Man and Man’s cookstoves have significantly reduced our charcoal expenses and made cooking much easier.”
+          “A designer knows he has achieved perfection not when there is nothing
+          left to add, but when there is nothing left to take away.”
         tagline: Testimonial 1
-        subtitle: 'Ama Osei, Kumasi'
+        subtitle: 'Maria Walters, Company'
         text: >-
-          The cookstoves provided by Man and Man Enterprise have been a game-changer for our family. We save money on charcoal and the stoves are much safer to use.
+          Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+          accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae.
+          explicabo.
         image:
           url: /images/person-placeholder-light.png
-          altText: Ama Osei
+          altText: Maria Walters
           styles:
             self:
               borderRadius: full
@@ -403,14 +402,16 @@ sections:
             justifyContent: center
         type: FeaturedItem
       - title: >-
-          “The training provided by Man and Man Enterprise has equipped me with valuable skills and a steady job.”
+          "Design is a plan for arranging elements in such a way as best to accomplish a particular purpose."
         tagline: Testimonial 2
-        subtitle: 'Kwame Mensah, Artisan'
+        subtitle: 'John Doe, Company'
         text: >-
-          Working with Man and Man Enterprise has been an incredible experience. The skills I’ve learned have allowed me to earn a reliable income and support my family.
+          Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+          accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae.
+          explicabo.
         image:
           url: /images/person-placeholder-light.png
-          altText: Kwame Mensah
+          altText: John Doe
           styles:
             self:
               borderRadius: full
@@ -430,20 +431,110 @@ sections:
             justifyContent: center
         type: FeaturedItem
       - title: >-
-          “Man and Man’s sustainable practices have made a significant impact on our community’s health and environment.”
+          "Design is how it works, how it functions. Good design doesn't just make a product aesthetically pleasing, it makes it a pleasure to use."
         tagline: Testimonial 3
-        subtitle: 'Abena Kusi, Community Leader'
+        subtitle: 'Maria Walters, Company'
         text: >-
-          The introduction of improved cookstoves by Man and Man Enterprise has greatly reduced indoor pollution and deforestation in our area. It’s a step towards a healthier future.
+          Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+          accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae.
+          explicabo.
         image:
           url: /images/person-placeholder-light.png
-          altText: Abena Kusi
+          altText: Maria Walters
           styles:
             self:
               borderRadius: full
           type: ImageBlock
         actions: []
         colors: bg-neutralAlt-fg-dark
+        styles:
+          self:
+            padding:
+              - pt-9
+              - pb-9
+              - pl-9
+              - pr-9
+            textAlign: left
+            borderRadius: large
+            flexDirection: row
+            justifyContent: center
+        type: FeaturedItem
+      - title: >-
+          “A designer knows he has achieved perfection not when there is nothing
+          left to add, but when there is nothing left to take away.”
+        tagline: Testimonial 4
+        subtitle: 'Maria Walters, Company'
+        text: >-
+          Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+          accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae.
+          explicabo.
+        image:
+          url: /images/person-placeholder-light.png
+          altText: Maria Walters
+          styles:
+            self:
+              borderRadius: full
+          type: ImageBlock
+        actions: []
+        colors: bg-neutralAlt-fg-dark
+        styles:
+          self:
+            padding:
+              - pt-9
+              - pb-9
+              - pl-9
+              - pr-9
+            textAlign: left
+            borderRadius: large
+            flexDirection: row
+            justifyContent: center
+        type: FeaturedItem
+      - title: >-
+          "Design can be art. Design can be aesthetics. Design is so simple, that's why it is so complicated."
+        tagline: Testimonial 5
+        subtitle: 'Jane Walters, Company'
+        text: >-
+          Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+          accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae.
+          explicabo.
+        image:
+          url: /images/person-placeholder-light.png
+          altText: Maria Walters
+          styles:
+            self:
+              borderRadius: full
+          type: ImageBlock
+        actions: []
+        colors: bg-neutralAlt-fg-dark
+        styles:
+          self:
+            padding:
+              - pt-9
+              - pb-9
+              - pl-9
+              - pr-9
+            textAlign: left
+            borderRadius: large
+            flexDirection: row
+            justifyContent: center
+        type: FeaturedItem
+      - title: >-
+          “Quote from some important person goes right here. I love using Netlify Create.”
+        tagline: Testimonial 6
+        subtitle: 'Jane Doe, Company'
+        text: >-
+          Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+          accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae.
+          explicabo.
+        image:
+          url: /images/img-placeholder-dark.png
+          altText: Jane Doe
+          styles:
+            self:
+              borderRadius: full
+          type: ImageBlock
+        actions: []
+        colors: bg-dark-fg-light
         styles:
           self:
             padding:
@@ -471,16 +562,16 @@ sections:
         self:
           textAlign: center
       type: TitleBlock
-    subtitle: Our Cookstoves at a Glance
+    subtitle: Featured Items Section
     items:
-      - title: Efficient and Eco-friendly
-        tagline: Save on Fuel Costs
-        subtitle: Eco-friendly Cookstoves
+      - title: Feature Item One
+        tagline: This is the tagline
+        subtitle: This is the item subtitle
         text: |
-          Our cookstoves are designed to be highly efficient, reducing charcoal consumption by up to 40%. They are an eco-friendly option that helps reduce deforestation.
+          Follow the tutorial to build your first Netlify Create site.
         image:
-          url: /images/efficient-cookstove.svg
-          altText: Efficient Cookstove
+          url: /images/abstract-feature1.svg
+          altText: Placeholder Image
           styles:
             self:
               borderRadius: x-large
@@ -496,14 +587,14 @@ sections:
             borderRadius: x-large
             flexDirection: col
         type: FeaturedItem
-      - title: Durable and Cost-effective
-        tagline: Long-lasting Performance
-        subtitle: Cost-effective Solutions
+      - title: Feature Item Two
+        tagline: This is the tagline
+        subtitle: This is the item subtitle
         text: |
-          Made from durable materials, our cookstoves offer long-lasting performance and cost-effective cooking solutions for households of all sizes.
+          Follow the tutorial to build your first awesome Netlify Create site.
         image:
-          url: /images/durable-cookstove.svg
-          altText: Durable Cookstove
+          url: /images/abstract-feature2.svg
+          altText: Placeholder image
           styles:
             self:
               borderRadius: x-large
@@ -519,14 +610,14 @@ sections:
             borderRadius: x-large
             flexDirection: col
         type: FeaturedItem
-      - title: Easy to Use
-        tagline: User-friendly Design
-        subtitle: Convenient and Safe
+      - title: Feature Item Three
+        tagline: This is the tagline
+        subtitle: This is the item subtitle
         text: |
-          Our cookstoves are designed with user convenience and safety in mind. They are easy to use and maintain, making cooking a hassle-free experience.
+          Learn from the tutorial and build your first awesome Netlify Create site.
         image:
-          url: /images/easy-to-use-cookstove.svg
-          altText: Easy to Use Cookstove
+          url: /images/abstract-feature1.svg
+          altText: Placeholder image
           styles:
             self:
               borderRadius: x-large
@@ -556,12 +647,15 @@ sections:
         textAlign: center
     type: FeaturedItemsSection
   - title:
-      text: Get in Touch
+      text: Generic Section With A Form
       color: text-dark
       type: TitleBlock
-    subtitle: Contact Us for More Information
+    subtitle: Section with a Form
     text: |-
-      Whether you have a question about our products or services, or you're interested in partnering with us, we're here to help. Reach out to us today!
+      Aenean eros ipsum, interdum quis dignissim non, sollicitudin vitae nisl.
+      Aenean vel aliquet elit, at blandit ipsum. Sed eleifend felis sit amet
+      erat molestie, hendrerit malesuada justo ultrices. Nunc volutpat at erat
+      vitae interdum. Ut nec massa eget lorem blandit condimentum et at risus.
     media:
       fields:
         - name: name
@@ -581,3 +675,40 @@ sections:
         - name: message
           label: Message
           hideLabel: true
+          placeholder: Your message
+          width: full
+          type: TextareaFormControl
+      elementId: contact-form
+      styles:
+        self:
+          padding:
+            - pt-6
+            - pb-6
+            - pl-6
+            - pr-6
+          borderColor: border-dark
+          borderStyle: solid
+          borderWidth: 1
+          borderRadius: large
+      type: FormBlock
+      submitButton:
+        type: SubmitButtonFormControl
+        label: Submit
+        showIcon: false
+        icon: arrowRight
+        iconPosition: right
+        style: primary
+        elementId: null
+    badge:
+      label: Contact Us
+      color: text-primary
+      type: Badge
+    colors: bg-light-fg-dark
+    type: GenericSection
+seo:
+  metaTitle: Home - Man and Man Enterprise
+  metaDescription: Discover Man and Man Enterprise's innovative and efficient cookstoves designed to enhance cooking experiences while reducing environmental impact.
+  socialImage: /images/main-hero.jpg
+  type: Seo
+type: PageLayout
+---

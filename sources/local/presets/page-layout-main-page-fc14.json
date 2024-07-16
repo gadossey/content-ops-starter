@@ -10,18 +10,18 @@
                 "sections": [
                     {
                         "title": {
-                            "text": "Empowering Communities with Efficient Cookstoves",
+                            "text": "Unblock your team boost your time to production",
                             "color": "text-dark",
                             "styles": null,
                             "$$type": "TitleBlock"
                         },
-                        "subtitle": "Transforming Lives, Protecting the Environment",
-                        "text": "Man and Man Enterprise is dedicated to providing efficient and sustainable cooking solutions for communities in Ghana. Our improved cookstoves reduce charcoal consumption, save money, and promote environmental conservation.",
+                        "subtitle": "Subtitle goes here",
+                        "text": "A Netlify website is a git repo that you own. Every code commit is instantly reflected in the visual editor and since every visual edit is a git commit, git workflows and collaboration just work.\n",
                         "actions": [
                             {
-                                "label": "Learn More",
+                                "label": "Get started",
                                 "altText": "",
-                                "url": "/our-work",
+                                "url": "/",
                                 "showIcon": false,
                                 "icon": "arrowRight",
                                 "iconPosition": "right",
@@ -30,9 +30,9 @@
                                 "$$type": "Button"
                             },
                             {
-                                "label": "Contact Us",
+                                "label": "See Tutorials",
                                 "altText": "",
-                                "url": "/contact",
+                                "url": "/",
                                 "showIcon": true,
                                 "icon": "arrowRight",
                                 "iconPosition": "right",
@@ -42,14 +42,14 @@
                             }
                         ],
                         "media": {
-                            "url": "/images/efficient-cookstove.jpg",
-                            "altText": "Efficient Cookstoves",
+                            "url": "/images/main-hero.svg",
+                            "altText": "Unblock your team boost your time to production preview",
                             "elementId": "",
                             "styles": null,
                             "$$type": "ImageBlock"
                         },
                         "badge": {
-                            "label": "Sustainable Solutions",
+                            "label": "This is a badge",
                             "color": "text-primary",
                             "styles": null,
                             "$$type": "Badge"
@@ -82,16 +82,16 @@
                             },
                             "$$type": "TitleBlock"
                         },
-                        "subtitle": "Our Impact in Numbers",
+                        "subtitle": "Subtitle goes here",
                         "items": [
                             {
-                                "title": "40%",
+                                "title": "500k",
                                 "tagline": null,
-                                "subtitle": "Reduction in Charcoal Use",
-                                "text": "Our cookstoves are designed to reduce charcoal consumption by up to 40%, saving money and protecting the environment.",
+                                "subtitle": "Numbers Done",
+                                "text": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae. explicabo.",
                                 "image": {
                                     "url": "/images/icon1.svg",
-                                    "altText": "Reduction in Charcoal Use",
+                                    "altText": "Placeholder image",
                                     "elementId": "",
                                     "styles": {
                                         "self": {
@@ -120,13 +120,13 @@
                                 "$$type": "FeaturedItem"
                             },
                             {
-                                "title": "70,000",
+                                "title": "20x",
                                 "tagline": null,
-                                "subtitle": "Tons of CO2e Saved",
-                                "text": "Our cookstoves have saved approximately 70,000 tons of CO2e, contributing to a cleaner environment.",
+                                "subtitle": "The Job Stuff",
+                                "text": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae. explicabo.",
                                 "image": {
                                     "url": "/images/icon2.svg",
-                                    "altText": "Tons of CO2e Saved",
+                                    "altText": "Placeholder image",
                                     "elementId": "",
                                     "styles": null,
                                     "$$type": "ImageBlock"
@@ -151,13 +151,13 @@
                                 "$$type": "FeaturedItem"
                             },
                             {
-                                "title": "100+",
+                                "title": "200%",
                                 "tagline": null,
-                                "subtitle": "Jobs Created",
-                                "text": "We have created over 100 jobs, providing valuable skills and stable income for local artisans.",
+                                "subtitle": "Faster",
+                                "text": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae. explicabo.",
                                 "image": {
                                     "url": "/images/icon3.svg",
-                                    "altText": "Jobs Created",
+                                    "altText": "Placeholder image",
                                     "elementId": "",
                                     "styles": null,
                                     "$$type": "ImageBlock"
@@ -182,9 +182,9 @@
                         ],
                         "actions": [
                             {
-                                "label": "Learn More",
+                                "label": "Get started",
                                 "altText": "",
-                                "url": "/impact",
+                                "url": "/",
                                 "showIcon": false,
                                 "icon": "arrowRight",
                                 "iconPosition": "right",
@@ -194,7 +194,7 @@
                             }
                         ],
                         "badge": {
-                            "label": "Impact",
+                            "label": "This is a badge",
                             "color": "text-primary",
                             "styles": {
                                 "self": {
@@ -225,32 +225,53 @@
                     },
                     {
                         "title": null,
-                        "subtitle": "Our Partners",
+                        "subtitle": "Award winning enterprises trust us",
                         "images": [
                             {
-                                "url": "/images/partner1-logo.svg",
-                                "altText": "Partner 1 logo",
+                                "url": "/images/empathy-logo.svg",
+                                "altText": "Empathy logo",
                                 "elementId": null,
                                 "styles": null,
                                 "$$type": "ImageBlock"
                             },
                             {
-                                "url": "/images/partner2-logo.svg",
-                                "altText": "Partner 2 logo",
+                                "url": "/images/wellster-logo.svg",
+                                "altText": "Wellster logo",
                                 "elementId": null,
                                 "styles": null,
                                 "$$type": "ImageBlock"
                             },
                             {
-                                "url": "/images/partner3-logo.svg",
-                                "altText": "Partner 3 logo",
+                                "url": "/images/vise-logo.svg",
+                                "altText": "Vise logo",
                                 "elementId": null,
                                 "styles": null,
                                 "$$type": "ImageBlock"
                             },
                             {
-                                "url": "/images/partner4-logo.svg",
-                                "altText": "Partner 4 logo",
+                                "url": "/images/telus-logo.svg",
+                                "altText": "Telus logo",
+                                "elementId": null,
+                                "styles": null,
+                                "$$type": "ImageBlock"
+                            },
+                            {
+                                "url": "/images/contenful-logo.svg",
+                                "altText": "Contentful logo",
+                                "elementId": null,
+                                "styles": null,
+                                "$$type": "ImageBlock"
+                            },
+                            {
+                                "url": "/images/sanity-logo.svg",
+                                "altText": "Sanity logo",
+                                "elementId": null,
+                                "styles": null,
+                                "$$type": "ImageBlock"
+                            },
+                            {
+                                "url": "/images/rangle-logo.svg",
+                                "altText": "Rangle logo",
                                 "elementId": null,
                                 "styles": null,
                                 "$$type": "ImageBlock"
