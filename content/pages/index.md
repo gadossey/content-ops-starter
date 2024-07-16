@@ -296,6 +296,7 @@ sections:
         justifyContent: center
       subtitle:
         textAlign: left
+
   - type: GenericSection
     title:
       text: Efficient Cookstove Distribution
@@ -322,7 +323,7 @@ sections:
       url: /images/cookstove.jpg
       altText: Efficient Cookstoves
       type: ImageBlock
-          badge:
+    badge:
       label: Eco-Friendly
       color: text-primary
       type: Badge
@@ -641,7 +642,13 @@ sections:
               - pr-8
             borderRadius: x-large
             flexDirection: col
-      variant: three-col-grid
+    variant: three-col-grid
+    colors: bg-neutral-fg-dark
+    styles:
+      self:
+        padding:
+          - pt-16
+    variant: three-col-grid
     colors: bg-neutral-fg-dark
     styles:
       self:
@@ -718,6 +725,3 @@ seo:
   type: Seo
 
 type: PageLayout
-
-            
-
