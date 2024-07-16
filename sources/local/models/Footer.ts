@@ -34,7 +34,7 @@ export const Footer: Model = {
             name: 'title',
             label: 'Title',
             required: false,
-            default: 'Your Brand',
+            default: 'Man and Man Enterprise',
             hidden: false,
             localized: false
         },
@@ -43,7 +43,7 @@ export const Footer: Model = {
             name: 'text',
             label: 'Text',
             required: false,
-            default: 'A description of your brand',
+            default: 'Man and Man Enterprise is dedicated to promoting and disseminating improved cookstoves in urban poor communities in Ghana. Our mission is to reduce charcoal consumption and greenhouse gas emissions, while improving health and economic outcomes for our users.',
             hidden: false,
             localized: false
         },
@@ -94,7 +94,7 @@ export const Footer: Model = {
             name: 'copyrightText',
             label: 'Copyright text',
             required: false,
-            default: 'Copyright text',
+            default: '© 2024 Man and Man Enterprise. All rights reserved.',
             hidden: false,
             localized: false
         },

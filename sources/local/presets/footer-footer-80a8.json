@@ -7,13 +7,13 @@
             "data": {
                 "logo": {
                     "url": "/images/logo-white.svg",
-                    "altText": "Logo light",
+                    "altText": "Man and Man Enterprise Logo",
                     "elementId": null,
                     "styles": null,
                     "$$type": "ImageBlock"
                 },
                 "title": null,
-                "text": "A description of your brand",
+                "text": "Man and Man Enterprise is dedicated to promoting and disseminating improved cookstoves in urban poor communities in Ghana. Our mission is to reduce charcoal consumption and greenhouse gas emissions, while improving health and economic outcomes for our users.",
                 "primaryLinks": {
                     "title": "Product",
                     "links": [
@@ -42,7 +42,7 @@
                         {
                             "label": "Documentation",
                             "altText": null,
-                            "url": "/",
+                            "url": "/documentation",
                             "showIcon": null,
                             "icon": "arrowRight",
                             "iconPosition": "right",
@@ -59,7 +59,7 @@
                     "links": [
                         {
                             "label": "Careers",
-                            "altText": "careers page",
+                            "altText": "Careers page",
                             "url": "/careers",
                             "showIcon": null,
                             "icon": "arrowRight",
@@ -86,28 +86,28 @@
                 "socialLinks": [
                     {
                         "altText": "GitHub link",
-                        "url": "https://github.com/netlify",
+                        "url": "https://github.com/manandman",
                         "icon": "github",
                         "elementId": null,
                         "$$type": "Social"
                     },
                     {
                         "altText": "Twitter link",
-                        "url": "https://twitter.com/netlify",
+                        "url": "https://twitter.com/manandman",
                         "icon": "twitter",
                         "elementId": null,
                         "$$type": "Social"
                     },
                     {
                         "altText": "LinkedIn link",
-                        "url": "https://www.linkedin.com/company/netlify",
+                        "url": "https://www.linkedin.com/company/manandman",
                         "icon": "linkedin",
                         "elementId": null,
                         "$$type": "Social"
                     },
                     {
                         "altText": "Email link",
-                        "url": "/",
+                        "url": "mailto:info@manandman.com",
                         "icon": "mail",
                         "elementId": null,
                         "$$type": "Social"
@@ -117,7 +117,7 @@
                     {
                         "label": "Terms",
                         "altText": null,
-                        "url": "/",
+                        "url": "/terms",
                         "showIcon": null,
                         "icon": "arrowRight",
                         "iconPosition": "right",
@@ -128,7 +128,7 @@
                     {
                         "label": "Privacy",
                         "altText": null,
-                        "url": "/",
+                        "url": "/privacy",
                         "showIcon": null,
                         "icon": "arrowRight",
                         "iconPosition": "right",
@@ -137,7 +137,7 @@
                         "$$type": "Link"
                     }
                 ],
-                "copyrightText": "Powered by [Netlify](https://www.netlify.com/)",
+                "copyrightText": "© 2024 Man and Man Enterprise. All rights reserved.",
                 "colors": "bg-dark-fg-light",
                 "styles": null
             },
