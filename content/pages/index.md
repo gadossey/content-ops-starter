@@ -288,13 +288,13 @@ sections:
         justifyContent: center
       subtitle:
         textAlign: left
-- title:
-    text: Efficient Cookstoves
+  - title:
+    text: Efficient Cookstove Distribution
     color: text-dark
     type: TitleBlock
-  subtitle: Reduce Costs and Save the Environment
+  subtitle: Reduce Your Cooking Costs
   text: >
-    Discover our range of improved cookstoves that reduce charcoal consumption by 40%, helping you save money while protecting the environment.
+    Enhance your cooking experience with our efficient biomass cookstoves. Our stoves reduce charcoal consumption by 40%, helping you save money and protect the environment.
   actions:
     - label: Get started
       url: /efficient-cookstoves
@@ -310,11 +310,11 @@ sections:
       style: primary
       type: Link
   media:
-    url: /images/hero2.svg
+    url: /images/cookstove.jpg
     altText: Efficient Cookstoves
     type: ImageBlock
   badge:
-    label: Save 40% on Fuel
+    label: Eco-Friendly
     color: text-primary
     type: Badge
   colors: bg-light-fg-dark
@@ -326,9 +326,9 @@ sections:
     text: Community Development
     color: text-dark
     type: TitleBlock
-  subtitle: Empowering Local Artisans
+  subtitle: Empowering Local Communities
   text: >
-    Our initiatives include training and employing local artisans to manufacture stove parts, providing them with skills and income above the minimum wage.
+    Our community initiatives include training artisans, providing employment, and building essential infrastructure. Join us in making a difference.
   actions:
     - label: Get started
       url: /community-development
@@ -336,19 +336,19 @@ sections:
       iconPosition: right
       style: secondary
       type: Button
-    - label: See Tutorials
-      url: /tutorials
+    - label: See Impact
+      url: /impact
       showIcon: true
       icon: arrowRight
       iconPosition: right
       style: primary
       type: Link
   media:
-    url: /images/hero3.svg
+    url: /images/community.jpg
     altText: Community Development
     type: ImageBlock
   badge:
-    label: Empowering Communities
+    label: Sustainable Growth
     color: text-primary
     type: Badge
   colors: bg-light-fg-dark
@@ -369,17 +369,17 @@ sections:
   type: DividerSection
 - type: CarouselSection
   title: null
-  subtitle: What Our Customers Say About Us
+  subtitle: What Our Beneficiaries Say About Us
   items:
     - title: >-
-        “Switching to the Holy Cook stove has saved us money and reduced smoke in our kitchen.”
+        “Man and Man's cookstoves have greatly reduced our fuel costs and improved our quality of life.”
       tagline: Testimonial 1
-      subtitle: 'Maria Walters, Accra'
+      subtitle: 'Akosua Mensah, Kumasi'
       text: >-
-        The new stove is much more efficient and easy to use. We are very happy with it and the savings it brings.
+        With the new cookstoves, we use less charcoal and save more money. Plus, it's better for our health and the environment.
       image:
         url: /images/person-placeholder-light.png
-        altText: Maria Walters
+        altText: Akosua Mensah
         styles:
           self:
             borderRadius: full
@@ -399,14 +399,14 @@ sections:
           justifyContent: center
       type: FeaturedItem
     - title: >-
-        "Our cooking time has reduced significantly with the new efficient stoves."
+        "The training programs have provided me with new skills and a steady income."
       tagline: Testimonial 2
-      subtitle: 'John Doe, Kumasi'
+      subtitle: 'Yaw Bediako, Kumasi'
       text: >-
-        The efficiency of the stoves is remarkable. They consume less charcoal and are very durable.
+        Thanks to Man and Man, I now have a job that pays well above the minimum wage, and I've learned valuable skills that I can use in the future.
       image:
         url: /images/person-placeholder-light.png
-        altText: John Doe
+        altText: Yaw Bediako
         styles:
           self:
             borderRadius: full
@@ -426,14 +426,14 @@ sections:
           justifyContent: center
       type: FeaturedItem
     - title: >-
-        "The cookstove project has greatly improved our community's quality of life."
+        "The community projects have transformed our lives with better infrastructure and support."
       tagline: Testimonial 3
-      subtitle: 'Jane Walters, Kumasi'
+      subtitle: 'Ama Twumasi, Kumasi'
       text: >-
-        The training and employment opportunities provided by Man and Man have empowered many in our community.
+        From housing to healthcare, the support from Man and Man has been invaluable to our community. We feel more secure and hopeful for the future.
       image:
         url: /images/person-placeholder-light.png
-        altText: Jane Walters
+        altText: Ama Twumasi
         styles:
           self:
             borderRadius: full
@@ -453,14 +453,14 @@ sections:
           justifyContent: center
       type: FeaturedItem
     - title: >-
-        “The cookstoves are easy to use and have reduced our fuel costs significantly.”
+        “Our new cookstove is a game-changer for our family’s daily life.”
       tagline: Testimonial 4
-      subtitle: 'Maria Walters, Accra'
+      subtitle: 'Kofi Asare, Kumasi'
       text: >-
-        We are grateful for the affordable and efficient stoves. They have made a big difference in our daily lives.
+        We are saving money on charcoal and contributing to a healthier environment. The cookstove's efficiency is impressive.
       image:
         url: /images/person-placeholder-light.png
-        altText: Maria Walters
+        altText: Kofi Asare
         styles:
           self:
             borderRadius: full
@@ -480,14 +480,14 @@ sections:
           justifyContent: center
       type: FeaturedItem
     - title: >-
-        "The improved stoves have made cooking faster and more enjoyable."
+        "Joining the artisan training program has been a life-changing experience."
       tagline: Testimonial 5
-      subtitle: 'Jane Walters, Kumasi'
+      subtitle: 'Kwame Opoku, Kumasi'
       text: >-
-        The new stoves are a pleasure to use. They are efficient and produce less smoke, making cooking much more pleasant.
+        I am now equipped with skills that not only provide me with a steady income but also help me contribute to my community's growth.
       image:
         url: /images/person-placeholder-light.png
-        altText: Jane Walters
+        altText: Kwame Opoku
         styles:
           self:
             borderRadius: full
@@ -507,14 +507,14 @@ sections:
           justifyContent: center
       type: FeaturedItem
     - title: >-
-        “The efficiency of the cookstoves has transformed our cooking experience.”
+        “The stoves are efficient and eco-friendly, making a real difference in our community.”
       tagline: Testimonial 6
-      subtitle: 'Jane Doe, Kumasi'
+      subtitle: 'Adwoa Gyamfi, Kumasi'
       text: >-
-        The cookstoves are not only efficient but also easy to use. They have truly transformed our cooking experience for the better.
+        Our family has seen significant savings on fuel costs, and we are proud to be using a product that helps preserve our forests.
       image:
         url: /images/img-placeholder-dark.png
-        altText: Jane Doe
+        altText: Adwoa Gyamfi
         styles:
           self:
             borderRadius: full
@@ -550,14 +550,14 @@ sections:
     type: TitleBlock
   subtitle: Featured Items Section
   items:
-    - title: Cookstove Efficiency
-      tagline: Save on Fuel
-      subtitle: High Efficiency
+    - title: Improved Efficiency
+      tagline: This is the tagline
+      subtitle: This is the item subtitle
       text: |
-        Our cookstoves reduce charcoal use by 40%, helping you save on fuel costs and protect the environment.
+        Our stoves save 40% on charcoal consumption compared to traditional stoves.
       image:
         url: /images/abstract-feature1.svg
-        altText: Efficient Cookstove
+        altText: Placeholder Image
         styles:
           self:
             borderRadius: x-large
@@ -573,14 +573,14 @@ sections:
           borderRadius: x-large
           flexDirection: col
       type: FeaturedItem
-    - title: Community Training
-      tagline: Skill Development
-      subtitle: Empowering Artisans
+    - title: Community Impact
+      tagline: This is the tagline
+      subtitle: This is the item subtitle
       text: |
-        We provide training to local artisans, enhancing their skills and providing employment opportunities.
+        Training programs and employment opportunities for local artisans.
       image:
         url: /images/abstract-feature2.svg
-        altText: Community Training
+        altText: Placeholder image
         styles:
           self:
             borderRadius: x-large
@@ -590,20 +590,18 @@ sections:
         self:
           padding:
             - pt-8
-            - pl-8
-            - pb-8
             - pr-8
           borderRadius: x-large
           flexDirection: col
-      type: FeaturedItem 
-    - title: Environmental Impact
-      tagline: Reduce Emissions
-      subtitle: Eco-Friendly Solutions
+      type: FeaturedItem
+    - title: Environmental Conservation
+      tagline: This is the tagline
+      subtitle: This is the item subtitle
       text: |
-        Our cookstoves not only save fuel but also significantly reduce harmful emissions, contributing to a healthier environment.
+        Our cookstoves help reduce deforestation and carbon emissions.
       image:
         url: /images/abstract-feature1.svg
-        altText: Eco-Friendly Solutions
+        altText: Placeholder Image
         styles:
           self:
             borderRadius: x-large
@@ -633,12 +631,12 @@ sections:
       textAlign: center
   type: FeaturedItemsSection
 - title:
-    text: Contact Us for More Information
+    text: Contact Us
     color: text-dark
     type: TitleBlock
-  subtitle: Get In Touch
+  subtitle: Get in Touch
   text: |-
-    Have questions or need more details? Reach out to us and we’ll be happy to assist you with all the information you need about our products and services.
+    Have any questions or want to learn more about our initiatives? Reach out to us using the form below.
   media:
     fields:
       - name: name
@@ -694,3 +692,4 @@ seo:
   socialImage: /images/main-hero.jpg
   type: Seo
 type: PageLayout
+---
