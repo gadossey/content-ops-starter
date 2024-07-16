@@ -1,7 +1,7 @@
 {
-    "favicon": "/images/favicon.svg",
+    "favicon": "/images/favicon.jpg",
     "footer": "content/data/footer.json",
-    "titleSuffix": "MAN AND MAN",
+    "titleSuffix": "The Leading Cookstove manufacturer in Ghana",
     "defaultSocialImage": "/images/main-hero.jpg",
     "type": "Config",
     "header": "content/data/header.json"
