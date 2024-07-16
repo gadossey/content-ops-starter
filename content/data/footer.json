@@ -1,33 +1,33 @@
 {
     "logo": {
         "url": "/images/logo-white.svg",
-        "altText": "Logo light",
+        "altText": "Man and Man Enterprise Logo",
         "type": "ImageBlock"
     },
-    "text": "A description of your brand",
+    "text": "Empowering communities through efficient and sustainable cooking solutions",
     "primaryLinks": {
-        "title": "Product",
+        "title": "Our Work",
         "links": [
             {
                 "label": "Features",
-                "altText": "Features page",
-                "url": "/",
+                "altText": "Features of our stoves",
+                "url": "/features",
                 "icon": "arrowRight",
                 "iconPosition": "right",
                 "style": "secondary",
                 "type": "Link"
             },
             {
-                "label": "Pricing",
-                "url": "/pricing",
+                "label": "Impact",
+                "url": "/impact",
                 "icon": "arrowRight",
                 "iconPosition": "right",
                 "style": "secondary",
                 "type": "Link"
             },
             {
-                "label": "Documentation",
-                "url": "/",
+                "label": "Sustainability",
+                "url": "/sustainability",
                 "icon": "arrowRight",
                 "iconPosition": "right",
                 "style": "secondary",
@@ -37,11 +37,11 @@
         "type": "FooterLinksGroup"
     },
     "secondaryLinks": {
-        "title": "Company",
+        "title": "About Us",
         "links": [
             {
                 "label": "Careers",
-                "altText": "careers page",
+                "altText": "Careers at Man and Man",
                 "url": "/careers",
                 "icon": "arrowRight",
                 "iconPosition": "right",
@@ -62,25 +62,25 @@
     "socialLinks": [
         {
             "altText": "GitHub link",
-            "url": "https://github.com/netlify",
+            "url": "https://github.com/manandmanenterprise",
             "icon": "github",
             "type": "Social"
         },
         {
             "altText": "Twitter link",
-            "url": "https://twitter.com/netlify",
+            "url": "https://twitter.com/manandman_gh",
             "icon": "twitter",
             "type": "Social"
         },
         {
             "altText": "LinkedIn link",
-            "url": "https://www.linkedin.com/company/netlify",
+            "url": "https://www.linkedin.com/company/man-and-man-enterprise",
             "icon": "linkedin",
             "type": "Social"
         },
         {
             "altText": "Email link",
-            "url": "/",
+            "url": "/contact",
             "icon": "mail",
             "type": "Social"
         }
@@ -88,7 +88,7 @@
     "legalLinks": [
         {
             "label": "Terms",
-            "url": "/",
+            "url": "/terms",
             "icon": "arrowRight",
             "iconPosition": "right",
             "style": "secondary",
@@ -96,14 +96,14 @@
         },
         {
             "label": "Privacy",
-            "url": "/",
+            "url": "/privacy",
             "icon": "arrowRight",
             "iconPosition": "right",
             "style": "secondary",
             "type": "Link"
         }
     ],
-    "copyrightText": "Powered by [Netlify Create](https://www.netlify.com/platform/create/)",
+    "copyrightText": "Powered by [Man and Man Enterprise](https://www.manandmanenterprise.com)",
     "colors": "bg-dark-fg-light",
     "type": "Footer"
 }

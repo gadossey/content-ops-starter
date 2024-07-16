@@ -29,17 +29,6 @@
                             "$$type": "Link"
                         },
                         {
-                            "label": "Pricing",
-                            "altText": null,
-                            "url": "/pricing",
-                            "showIcon": null,
-                            "icon": "arrowRight",
-                            "iconPosition": "right",
-                            "style": "secondary",
-                            "elementId": null,
-                            "$$type": "Link"
-                        },
-                        {
                             "label": "Documentation",
                             "altText": null,
                             "url": "/documentation",

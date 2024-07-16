@@ -364,7 +364,7 @@
                         "actions": [],
                         "media": {
                             "title": "Title of the video",
-                            "url": "/images/placeholder-video.mp4",
+                            "url": "/images/placeholder-video.MOV",
                             "autoplay": true,
                             "loop": true,
                             "muted": true,
@@ -426,8 +426,8 @@
                         "text": "Aenean eros ipsum, interdum quis dignissim non, sollicitudin vitae nisl.\nAenean vel aliquet elit, at blandit ipsum. Sed eleifend felis sit amet\nerat molestie, hendrerit malesuada justo ultrices. Nunc volutpat at erat\nvitae interdum. Ut nec massa eget lorem blandit condimentum et at risus.",
                         "actions": [],
                         "media": {
-                            "title": "Title of the video",
-                            "url": "/images/placeholder-video.mp4",
+                            "title": "MAN AND MAN FACTORY",
+                            "url": "https://youtu.be/W37KiK27EIk",
                             "autoplay": true,
                             "loop": true,
                             "muted": true,

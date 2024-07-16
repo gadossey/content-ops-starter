@@ -5,8 +5,8 @@
             "label": "Default video",
             "locale": null,
             "data": {
-                "title": "Title of the video",
-                "url": "/images/placeholder-video.mp4",
+                "title": "MAN AND MAN FACTORY",
+                "url": "https://youtu.be/W37KiK27EIk",
                 "autoplay": true,
                 "loop": true,
                 "muted": true,
