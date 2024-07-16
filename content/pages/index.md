@@ -30,7 +30,7 @@ sections:
         elementId: ''
         type: Link
     media:
-      url: /images/main-hero.svg
+      url: /images/main-hero.jpg
       altText: Enhancing Cooking Efficiency for Every Household
       elementId: ''
       type: ImageBlock
