@@ -5,12 +5,17 @@ sections:
   - type: GenericSection
     title:
       text: Welcome to Man and Man Enterprise
-      color: text-dark
+      color: text-white 
       type: TitleBlock
     text: |
       Man and Man Enterprise is a Ghanaian company dedicated to improving the quality of life for households and businesses by providing high-quality, efficient cookstoves. Our journey began with a clear mission: to combat environmental issues and enhance cooking experiences for people across Ghana.
     elementId: welcome
-    colors: bg-light-fg-dark
+    colors: text-white 
+    backgroundImage:
+      url: /images/background-welcome-large.png
+      position: center
+      size: cover
+      repeat: no-repeat
     styles:
       self:
         padding:
@@ -18,7 +23,7 @@ sections:
           - pb-8
           - pl-8
           - pr-8
-
+        textColor: text-white 
   - type: GenericSection
     title:
       text: Our Story
