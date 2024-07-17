@@ -30,9 +30,9 @@
             "type": "Link"
         },
         {
-            "label": "About Uss",
+            "label": "About Us",
             "altText": "About Us page",
-            "url": "/About Us",
+            "url": "/AboutUs",
             "icon": "arrowRight",
             "iconPosition": "right",
             "style": "secondary",

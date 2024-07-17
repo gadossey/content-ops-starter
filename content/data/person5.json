@@ -1,10 +1,10 @@
 {
     "type": "Person",
-    "name": "Drake Garza",
+    "name": "",
     "role": "Job title",
     "image": {
         "url": "/images/avatar5.svg",
-        "altText": "Drake Garza",
+        "altText": "",
         "styles": {
             "self": {
                 "borderRadius": "medium",
