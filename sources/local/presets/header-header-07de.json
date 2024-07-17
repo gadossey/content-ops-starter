@@ -32,9 +32,9 @@
                         "$$type": "Link"
                     },
                     {
-                        "label": "About Uss",
+                        "label": "About Us",
                         "altText": "About Us page",
-                        "url": "/About Us",
+                        "url": "/AboutUs",
                         "showIcon": null,
                         "icon": "arrowRight",
                         "iconPosition": "right",
