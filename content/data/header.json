@@ -32,7 +32,7 @@
         {
             "label": "About Us",
             "altText": "About Us page",
-            "url": "/AboutUs",
+            "url": "/about",
             "icon": "arrowRight",
             "iconPosition": "right",
             "style": "secondary",
@@ -51,8 +51,8 @@
                     "type": "Link"
                 },
                 {
-                    "label": "Sustainability",
-                    "url": "/sustainability",
+                    "label": "Our Gallery",
+                    "url": "/our-gallery",
                     "icon": "arrowRight",
                     "iconPosition": "right",
                     "style": "secondary",
