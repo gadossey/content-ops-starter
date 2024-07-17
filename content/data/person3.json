@@ -1,10 +1,10 @@
 {
     "type": "Person",
-    "name": "Asher Schmitt",
-    "role": "Co-founder & CEO",
+    "name": "Joeone",
+    "role": "Manager",
     "image": {
         "url": "/images/avatar3.svg",
-        "altText": "Asher Schmitt",
+        "altText": "Joeone",
         "styles": {
             "self": {
                 "borderRadius": "medium",
