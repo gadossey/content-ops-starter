@@ -711,7 +711,7 @@ sections:
     colors: bg-light-fg-dark
 
 seo:
-  metaTitle: Home - Man and Man Enterprise
+  metaTitle: Man and Man Enterprise
   metaDescription: Discover Man and Man Enterprise's innovative and efficient cookstoves designed to enhance cooking experiences while reducing environmental impact.
   socialImage: /images/main-hero.jpg
   type: Seo

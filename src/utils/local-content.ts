@@ -6,8 +6,6 @@ import { allModels } from '../../sources/local/models';
 import { Config } from '../../sources/local/models/Config';
 import { getPageUrl } from './page-utils';
 
-// TODO use types?
-
 const pagesDir = 'content/pages';
 const dataDir = 'content/data';
 
@@ -103,6 +101,14 @@ export function allContent() {
         page.__metadata.urlPath = getPageUrl(page);
     });
 
-    const siteConfig = data.find((e) => e.__metadata.modelName === Config.name);
+    const siteConfig = data.find((e) => e.__metadata.modelName === Config.name) || {};
+    if (!siteConfig) {
+        throw new Error('Site configuration not found');
+    }
+
+    // Ensure header and footer are part of the site configuration
+    siteConfig.header = data.find((e) => e.__metadata.modelName === 'Header') || {};
+    siteConfig.footer = data.find((e) => e.__metadata.modelName === 'Footer') || {};
+
     return { objects, pages, props: { site: siteConfig } };
 }

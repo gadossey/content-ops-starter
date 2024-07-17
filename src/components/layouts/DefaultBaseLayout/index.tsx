@@ -12,6 +12,9 @@ export default function DefaultBaseLayout(props) {
     let title = seoGenerateTitle(page, site);
     let metaTags = seoGenerateMetaTags(page, site);
     let metaDescription = seoGenerateMetaDescription(page, site);
+
+    console.log('Site Data:', site);
+
     return (
         <div className={classNames('sb-page', pageMeta.pageCssClasses)} {...(enableAnnotations && { 'data-sb-object-id': pageMeta.id })}>
             <div className="sb-base sb-default-base-layout">
@@ -20,7 +23,7 @@ export default function DefaultBaseLayout(props) {
                     {metaDescription && <meta name="description" content={metaDescription} />}
                     {metaTags.map((metaTag) => {
                         if (metaTag.format === 'property') {
-                            // OpenGraph meta tags (og:*) should be have the format <meta property="og:…" content="…">
+                            // OpenGraph meta tags (og:*) should have the format <meta property="og:…" content="…">
                             return <meta key={metaTag.property} property={metaTag.property} content={metaTag.content} />;
                         }
                         return <meta key={metaTag.property} name={metaTag.property} content={metaTag.content} />;
