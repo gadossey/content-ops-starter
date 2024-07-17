@@ -13,9 +13,7 @@ sections:
     subtitle: Sustainable and Efficient Cookstoves
     text: >
       Man and Man Enterprise is committed to providing high-quality, efficient cookstoves that reduce fuel consumption and emissions, enhancing the cooking experience for households and businesses in Ghana.
-      styles:
-        self:
-          textSize: lg:text-lg md:text-base sm:text-sm
+    
     actions:
       - label: Our Journey
         altText: ''
@@ -190,10 +188,10 @@ sections:
     styles:
       self:
         padding:
-          - pb-16
-          - pt-16
-          - pl-16
-          - pr-16
+          - pb-8
+          - pt-8
+          - pl-4
+          - pr-4
         justifyContent: center
         responsive:
           - md:pl-4
