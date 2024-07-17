@@ -13,17 +13,8 @@
     },
     "primaryLinks": [
         {
-            "label": "Our Work",
-            "url": "/our-work",
-            "icon": "arrowRight",
-            "iconPosition": "right",
-            "style": "secondary",
-            "type": "Link"
-        },
-        {
-            "label": "Blog",
-            "altText": "Blog",
-            "url": "/blogs",
+            "label": "Home",
+            "url": "/",
             "icon": "arrowRight",
             "iconPosition": "right",
             "style": "secondary",
@@ -41,6 +32,15 @@
         {
             "label": "Our Gallery",
             "url": "/our-gallery",
+            "icon": "arrowRight",
+            "iconPosition": "right",
+            "style": "secondary",
+            "type": "Link"
+        },
+        {
+            "label": "News",
+            "altText": "News",
+            "url": "/blogs",
             "icon": "arrowRight",
             "iconPosition": "right",
             "style": "secondary",

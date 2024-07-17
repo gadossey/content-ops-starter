@@ -168,7 +168,7 @@ sections:
       - label: Learn More
         altText: ''
         url: /benefits
-        showIcon: false
+        showIcon: true
         icon: arrowRight
         iconPosition: right
         style: primary
@@ -208,6 +208,9 @@ sections:
   - type: ImageGallerySection
     subtitle: Our Partners
     images:
+      - url: /images/logo-aera.svg
+        altText: Aera Logo
+        type: ImageBlock
       - url: /images/logo-aera.svg
         altText: Aera Logo
         type: ImageBlock
@@ -329,19 +332,18 @@ sections:
 
   - type: GenericSection
     title:
-      text: Innovative Cookstove Technology
+      text: Innovative Cookstoves Production
       color: text-dark
       styles:
         self:
           textAlign: left
           textSize: lg:text-3xl md:text-2xl sm:text-xl
       type: TitleBlock
-    subtitle: Leading the Way in Clean Cooking
+    subtitle: Our Factories
     text: |-
-      Man and Man Enterprise is a leader in producing efficient, durable cookstoves that save on fuel costs and reduce emissions. Discover our innovative technology and commitment to sustainability.
-      styles:
-        self:
-          textSize: lg:text-lg md:text-base sm:text-sm
+       Man and Man Enterprise's factories in Kumasi, Ghana, are cornerstones of innovation and sustainability in cookstove technology. Both factories employs 175 staff members, producing up to 30,000 cookstoves per month. These cookstoves are designed to be efficient, reducing charcoal consumption by 50% and lowering greenhouse gas emissions by 47,244 tonnes of CO2 annually.
+
+      
     actions: []
     media:
       title: See Our Technology
