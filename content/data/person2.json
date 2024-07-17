@@ -1,10 +1,10 @@
 {
     "type": "Person",
-    "name": "Micheal Yaw Agyei",
-    "role": "Founder & CEO",
+    "name": "Kingsley Bonsu",
+    "role": "Co-Founder & CEO",
     "image": {
         "url": "/images/avatar2.svg",
-        "altText": "Faizah Chan",
+        "altText": "Kingsley Bonsu",
         "styles": {
             "self": {
                 "borderRadius": "medium",

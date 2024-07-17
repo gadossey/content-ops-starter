@@ -1,6 +1,6 @@
 ---
-title: Careers
-slug: careers
+title: About Uss
+slug: About Uss
 sections:
   - title:
       text: A team that works closely together
@@ -159,8 +159,8 @@ sections:
         textAlign: center
     type: FeaturedItemsSection
 seo:
-  metaTitle: Careers - Demo site
-  metaDescription: This is the careers page built with Netlify Create.
+  metaTitle: About Us
+  metaDescription: This is the About Uss page built with Netlify Create.
   socialImage: /images/main-hero.jpg
   type: Seo
 type: PageLayout

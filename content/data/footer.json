@@ -40,9 +40,9 @@
         "title": "About Us",
         "links": [
             {
-                "label": "Careers",
-                "altText": "Careers at Man and Man",
-                "url": "/careers",
+                "label": "About Us",
+                "altText": "About Us ",
+                "url": "/About Us",
                 "icon": "arrowRight",
                 "iconPosition": "right",
                 "style": "secondary",

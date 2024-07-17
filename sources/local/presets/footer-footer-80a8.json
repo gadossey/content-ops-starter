@@ -47,9 +47,9 @@
                     "title": "Company",
                     "links": [
                         {
-                            "label": "Careers",
-                            "altText": "Careers page",
-                            "url": "/careers",
+                            "label": "About Us",
+                            "altText": "About  page",
+                            "url": "/About Us",
                             "showIcon": null,
                             "icon": "arrowRight",
                             "iconPosition": "right",

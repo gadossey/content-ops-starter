@@ -30,9 +30,9 @@
             "type": "Link"
         },
         {
-            "label": "Careers",
-            "altText": "Careers page",
-            "url": "/careers",
+            "label": "About Uss",
+            "altText": "About Us page",
+            "url": "/About Us",
             "icon": "arrowRight",
             "iconPosition": "right",
             "style": "secondary",

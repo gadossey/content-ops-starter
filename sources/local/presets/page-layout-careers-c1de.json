@@ -2,11 +2,11 @@
     "model": "PageLayout",
     "presets": [
         {
-            "label": "Careers",
+            "label": "About Us",
             "locale": null,
             "data": {
-                "title": "Careers",
-                "slug": "careers",
+                "title": "About Uss",
+                "slug": "About Uss",
                 "sections": [
                     {
                         "title": {
@@ -252,15 +252,15 @@
                 ],
                 "isDraft": null,
                 "seo": {
-                    "metaTitle": "Careers - Demo site",
-                    "metaDescription": "This is the careers page built with Netlify.",
+                    "metaTitle": "About Us",
+                    "metaDescription": "This is the About Us page built with Netlify.",
                     "addTitleSuffix": null,
                     "metaTags": [],
                     "$$type": "Seo"
                 },
                 "markdown_content": ""
             },
-            "thumbnail": "images/page-layout-careers-c1de.png"
+            "thumbnail": "images/page-layout-About Us-c1de.png"
         }
     ]
 }
