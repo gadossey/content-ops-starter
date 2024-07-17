@@ -222,9 +222,9 @@ sections:
 
   - type: FeaturedPostsSection
     posts:
-      - content/pages/blog/case-study-1.md
-      - content/pages/blog/case-study-2.md
-      - content/pages/blog/case-study-3.md
+      - content/pages/blog/transforming-lives-protecting-environment.md
+      - content/pages/blog/empowering-communities-efficient-cookstoves.md
+      - content/pages/blog/sustainable-cooking-solutions-ghana.md
     showThumbnail: true
     showDate: true
     showAuthor: true
