@@ -33,6 +33,11 @@ sections:
       Founded with a vision to bring sustainable solutions to everyday cooking, Man and Man Enterprise has grown to become a leader in the production and distribution of efficient cookstoves. Our innovative products are designed to reduce charcoal consumption by up to 50%, significantly lowering fuel costs and reducing greenhouse gas emissions.
     elementId: our-story
     colors: bg-neutral-fg-dark
+    backgroundImage:
+      url: /images/background-story-large.png
+      position: center
+      size: cover
+      repeat: no-repeat
     styles:
       self:
         padding:
