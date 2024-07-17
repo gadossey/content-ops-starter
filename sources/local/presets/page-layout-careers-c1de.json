@@ -10,7 +10,7 @@
                 "sections": [
                     {
                         "title": {
-                            "text": "Join Our Team",
+                            "text": "A team that works closely together",
                             "color": "text-dark",
                             "styles": {
                                 "self": {
@@ -19,13 +19,13 @@
                             },
                             "$$type": "TitleBlock"
                         },
-                        "subtitle": "Be Part of Something Bigger",
-                        "text": "At Man and Man Enterprise, we are dedicated to innovation and sustainability. Our mission is to provide high-quality, efficient cookstoves that make a positive impact on the environment and the lives of our customers. Join us and help shape a better future.",
+                        "subtitle": "Section subtitle",
+                        "text": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text.\n",
                         "actions": [
                             {
-                                "label": "See Open Positions",
+                                "label": "See open positions",
                                 "altText": null,
-                                "url": "/careers",
+                                "url": "/",
                                 "showIcon": null,
                                 "icon": "arrowRight",
                                 "iconPosition": "right",
@@ -39,8 +39,8 @@
                         "elementId": null,
                         "colors": "bg-neutral-fg-dark",
                         "backgroundImage": {
-                            "url": "/images/teamwork-background.jpg",
-                            "altText": "Teamwork Background",
+                            "url": "/images/abstract-background.svg",
+                            "altText": "Placeholder image",
                             "backgroundSize": "cover",
                             "backgroundPosition": "center",
                             "backgroundRepeat": "no-repeat",
@@ -70,7 +70,7 @@
                     },
                     {
                         "title": {
-                            "text": "Meet the Team",
+                            "text": "Meet the team",
                             "color": "text-dark",
                             "styles": {
                                 "self": {
@@ -130,7 +130,7 @@
                     },
                     {
                         "title": {
-                            "text": "Open Positions",
+                            "text": "Open positions",
                             "color": "text-dark",
                             "styles": {
                                 "self": {
@@ -139,13 +139,13 @@
                             },
                             "$$type": "TitleBlock"
                         },
-                        "subtitle": "Join Our Growing Team",
+                        "subtitle": "Subtitle goes here",
                         "items": [
                             {
-                                "title": "Product Manager",
+                                "title": "Account Executive",
                                 "tagline": null,
-                                "subtitle": "Operations",
-                                "text": "We are looking for a dynamic Product Manager to oversee the development and management of our innovative cookstove products. Join us in creating solutions that make a difference.",
+                                "subtitle": "Sales",
+                                "text": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae. explicabo.",
                                 "image": null,
                                 "actions": [],
                                 "elementId": null,
@@ -169,8 +169,8 @@
                             {
                                 "title": "Open Source Engineer",
                                 "tagline": null,
-                                "subtitle": "Engineering",
-                                "text": "Join our engineering team to contribute to our open source projects. Work with cutting-edge technology and help us build sustainable solutions.",
+                                "subtitle": "Marketing",
+                                "text": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae. explicabo.",
                                 "image": null,
                                 "actions": [],
                                 "elementId": null,
@@ -195,7 +195,7 @@
                                 "title": "Senior Software Engineer",
                                 "tagline": null,
                                 "subtitle": "Engineering",
-                                "text": "We are seeking a Senior Software Engineer to lead our development team. Bring your expertise and help us create innovative and efficient cooking solutions.",
+                                "text": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae. explicabo.",
                                 "image": null,
                                 "actions": [],
                                 "elementId": null,
@@ -217,9 +217,9 @@
                         ],
                         "actions": [
                             {
-                                "label": "Apply Now",
+                                "label": "Apply now",
                                 "altText": null,
-                                "url": "/apply",
+                                "url": "/",
                                 "showIcon": null,
                                 "icon": "arrowRight",
                                 "iconPosition": "right",
@@ -252,8 +252,8 @@
                 ],
                 "isDraft": null,
                 "seo": {
-                    "metaTitle": "Careers - Man and Man Enterprise",
-                    "metaDescription": "Join Man and Man Enterprise to contribute to innovative and efficient cookstove solutions that enhance cooking experiences and reduce environmental impact.",
+                    "metaTitle": "Careers - Demo site",
+                    "metaDescription": "This is the careers page built with Netlify.",
                     "addTitleSuffix": null,
                     "metaTags": [],
                     "$$type": "Seo"
