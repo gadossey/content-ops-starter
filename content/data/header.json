@@ -73,13 +73,24 @@
     ],
     "secondaryLinks": [
         {
-            "label": "Contact Us",
-            "altText": "Contact Us",
+            "icon": "github",
+            "url": "https://github.com/manandmanenterprise",
+            "type": "IconLink"
+        },
+        {
+            "icon": "twitter",
+            "url": "https://twitter.com/manandman_gh",
+            "type": "IconLink"
+        },
+        {
+            "icon": "linkedin",
+            "url": "https://www.linkedin.com/company/man-and-man-enterprise",
+            "type": "IconLink"
+        },
+        {
+            "icon": "mail",
             "url": "/contact",
-            "icon": "arrowRight",
-            "iconPosition": "right",
-            "style": "secondary",
-            "type": "Button"
+            "type": "IconLink"
         }
     ],
     "variant": "logo-left-primary-nav-centered",
