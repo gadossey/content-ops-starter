@@ -9,7 +9,7 @@ import {
     mapDeepAsync
 } from './data-utils';
 
-export function resolveStaticProps(urlPath, data) {
+export async function resolveStaticProps(urlPath, data) {
     // get root path of paged path: /blog/page/2 => /blog
     const rootUrlPath = getRootPagePath(urlPath);
     const { __metadata, ...rest } = data.pages.find((page) => page.__metadata.urlPath === rootUrlPath);
@@ -24,7 +24,13 @@ export function resolveStaticProps(urlPath, data) {
         },
         ...data.props
     };
-    return mapDeepAsync(
+
+    // Ensure footer is not undefined
+    if (!props.site.footer) {
+        props.site.footer = null;
+    }
+
+    return await mapDeepAsync(
         props,
         async (value, keyPath, stack) => {
             const objectType = value?.__metadata?.modelName;

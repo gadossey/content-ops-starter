@@ -20,7 +20,7 @@ export const FeaturedPostsSection: Model = {
             name: 'subtitle',
             label: 'Subtitle',
             required: false,
-            default: 'This is a subtitle',
+            default: 'Latest Innovations and Updates',
             hidden: false,
             localized: false
         },
@@ -41,7 +41,7 @@ export const FeaturedPostsSection: Model = {
             name: 'showThumbnail',
             label: 'Show post thumbnail',
             required: false,
-            default: false,
+            default: true,
             hidden: false,
             localized: false
         },
@@ -50,7 +50,7 @@ export const FeaturedPostsSection: Model = {
             name: 'showExcerpt',
             label: 'Show post excerpt',
             required: false,
-            default: false,
+            default: true,
             hidden: false,
             localized: false
         },
@@ -59,7 +59,7 @@ export const FeaturedPostsSection: Model = {
             name: 'showDate',
             label: 'Show post date',
             required: false,
-            default: false,
+            default: true,
             hidden: false,
             localized: false
         },
@@ -68,7 +68,7 @@ export const FeaturedPostsSection: Model = {
             name: 'showAuthor',
             label: 'Show post author',
             required: false,
-            default: false,
+            default: true,
             hidden: false,
             localized: false
         },
@@ -85,92 +85,46 @@ export const FeaturedPostsSection: Model = {
             }
         },
         {
-            type: 'model',
-            name: 'badge',
-            label: 'Badge',
-            required: false,
-            hidden: false,
-            localized: false,
-            models: ['Badge']
-        },
-        {
-            type: 'string',
-            name: 'elementId',
-            label: 'Element ID',
-            description: 'The unique ID for an HTML element, must not contain whitespace',
-            required: false,
-            default: '',
-            hidden: false,
-            localized: false,
-            group: 'settings'
-        },
-        {
             type: 'enum',
             name: 'variant',
-            label: 'Arrangement',
-            required: false,
-            default: 'two-col-grid',
-            hidden: false,
-            localized: false,
+            label: 'Variant',
+            required: true,
             options: [
                 {
-                    label: 'Two column grid',
-                    value: 'two-col-grid',
-                    thumbnail: 'https://assets.stackbit.com/components/images/default/two-col-grid.png'
-                },
-                {
                     label: 'Three column grid',
-                    value: 'three-col-grid',
-                    thumbnail: 'https://assets.stackbit.com/components/images/default/three-col-grid.png'
-                },
-                {
-                    label: 'Small list',
-                    value: 'small-list',
-                    thumbnail: 'https://assets.stackbit.com/components/images/default/small-list.png'
+                    value: 'three-col-grid'
                 },
                 {
                     label: 'Big list',
-                    value: 'big-list',
-                    thumbnail: 'https://assets.stackbit.com/components/images/default/big-list.png'
+                    value: 'big-list'
                 }
             ],
+            default: 'three-col-grid',
             group: 'styles',
-            controlType: 'thumbnails'
+            controlType: 'button-group'
         },
         {
             type: 'enum',
             name: 'colors',
             label: 'Colors',
-            description: 'The color theme of the section',
-            required: false,
-            default: 'bg-light-fg-dark',
-            hidden: false,
-            localized: false,
+            required: true,
             options: [
                 {
-                    label: 'Light background, dark foreground',
-                    value: 'bg-light-fg-dark',
-                    textColor: '$dark',
-                    backgroundColor: '$light',
-                    borderColor: '#ececec'
+                    label: 'Light background / Dark text',
+                    value: 'bg-light-fg-dark'
                 },
                 {
-                    label: 'Neutral background, dark foreground',
-                    value: 'bg-neutral-fg-dark',
-                    textColor: '$dark',
-                    backgroundColor: '$neutral',
-                    borderColor: '#ececec'
+                    label: 'Neutral background / Dark text',
+                    value: 'bg-neutral-fg-dark'
                 },
                 {
-                    label: 'Dark background, light foreground',
-                    value: 'bg-dark-fg-light',
-                    textColor: '$light',
-                    backgroundColor: '$dark',
-                    borderColor: '#ececec'
+                    label: 'Neutral background / Light text',
+                    value: 'bg-neutral-fg-light'
                 }
             ],
+            default: 'bg-light-fg-dark',
             group: 'styles',
-            controlType: 'palette'
+            controlType: 'button-group'
         },
         {
             type: 'model',

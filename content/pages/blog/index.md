@@ -8,9 +8,9 @@ topSections:
       text: Featured Post
       color: text-dark
       type: TitleBlock
-    subtitle: This is the subtitle
+    subtitle: Highlighting Our Innovations
     posts:
-      - content/pages/blog/top-ten-lessons-we-learned.md
+      - content/pages/blog/innovative-cookstoves.md
     showThumbnail: true
     showExcerpt: true
     showDate: true
@@ -31,11 +31,10 @@ styles:
   title:
     textAlign: center
 seo:
-  metaTitle: Blog - Demo site
-  metaDescription: >-
-    This is the blog of the demo site where we post about technology, product,
-    and design.
-  socialImage: /images/img-placeholder.svg
+  metaTitle: Blog - Man and Man Enterprise
+  metaDescription: >
+    Welcome to the blog of Man and Man Enterprise, where we share insights on our innovative and efficient cookstoves, sustainability efforts, and impact stories from Ghana.
+  socialImage: /images/cookstove.jpg
   type: Seo
 type: PostFeedLayout
 bottomSections: []
