@@ -399,6 +399,8 @@ sections:
         type: Button
       - label: See Our Gallery
         url: /our-gallery
+
+        
         showIcon: true
         icon: arrowRight
         iconPosition: right

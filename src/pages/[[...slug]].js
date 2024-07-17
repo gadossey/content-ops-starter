@@ -14,7 +14,12 @@ function Page(props) {
     if (!PageLayout) {
         throw new Error(`no page layout matching the page model: ${modelName}`);
     }
-    return <PageLayout page={page} site={site} />;
+
+    console.log('Site Data:', site);
+
+    return (
+        <PageLayout page={page} site={site} />
+    );
 }
 
 export function getStaticPaths() {
@@ -27,6 +32,9 @@ export async function getStaticProps({ params }) {
     const data = allContent();
     const urlPath = '/' + (params.slug || []).join('/');
     const props = await resolveStaticProps(urlPath, data);
+
+    console.log('Static Props:', props);
+
     return { props };
 }
 

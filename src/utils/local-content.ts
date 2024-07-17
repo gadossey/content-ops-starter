@@ -88,6 +88,7 @@ function resolveReferences(content, fileToContent) {
     }
 }
 
+// utils/local-content.ts
 export function allContent() {
     const [data, pages] = [dataDir, pagesDir].map((dir) => {
         return contentFilesInPath(dir).map((file) => readContent(file));
@@ -110,5 +111,8 @@ export function allContent() {
     siteConfig.header = data.find((e) => e.__metadata.modelName === 'Header') || {};
     siteConfig.footer = data.find((e) => e.__metadata.modelName === 'Footer') || {};
 
-    return { objects, pages, props: { site: siteConfig } };
+    console.log('Site Config:', siteConfig);
+
+    return { objects, pages, site: siteConfig }; // Return site config properly
 }
+
