@@ -39,58 +39,46 @@
             "type": "Link"
         },
         {
-            "label": "More",
-            "altText": "More options",
-            "links": [
-                {
-                    "label": "Community Impact",
-                    "url": "/community-impact",
-                    "icon": "arrowRight",
-                    "iconPosition": "right",
-                    "style": "secondary",
-                    "type": "Link"
-                },
-                {
-                    "label": "Our Gallery",
-                    "url": "/our-gallery",
-                    "icon": "arrowRight",
-                    "iconPosition": "right",
-                    "style": "secondary",
-                    "type": "Link"
-                },
-                {
-                    "label": "Contact Us",
-                    "url": "/contact",
-                    "icon": "arrowRight",
-                    "iconPosition": "right",
-                    "style": "secondary",
-                    "type": "Link"
-                }
-            ],
-            "labelStyle": "secondary",
-            "type": "SubNav"
+            "label": "Our Gallery",
+            "url": "/our-gallery",
+            "icon": "arrowRight",
+            "iconPosition": "right",
+            "style": "secondary",
+            "type": "Link"
+        },
+        {
+            "label": "Contact Us",
+            "url": "/contact",
+            "icon": "arrowRight",
+            "iconPosition": "right",
+            "style": "secondary",
+            "type": "Link"
         }
     ],
-    "secondaryLinks": [
+    "socialLinks": [
         {
-            "icon": "github",
+            "altText": "GitHub link",
             "url": "https://github.com/manandmanenterprise",
-            "type": "IconLink"
+            "icon": "github",
+            "type": "Social"
         },
         {
-            "icon": "twitter",
+            "altText": "Twitter link",
             "url": "https://twitter.com/manandman_gh",
-            "type": "IconLink"
+            "icon": "twitter",
+            "type": "Social"
         },
         {
-            "icon": "linkedin",
+            "altText": "LinkedIn link",
             "url": "https://www.linkedin.com/company/man-and-man-enterprise",
-            "type": "IconLink"
+            "icon": "linkedin",
+            "type": "Social"
         },
         {
-            "icon": "mail",
+            "altText": "Email link",
             "url": "/contact",
-            "type": "IconLink"
+            "icon": "mail",
+            "type": "Social"
         }
     ],
     "variant": "logo-left-primary-nav-centered",
