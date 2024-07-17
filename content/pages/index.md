@@ -7,9 +7,15 @@ sections:
       text: Enhancing Cooking Efficiency for Every Household
       color: text-dark
       type: TitleBlock
+      styles:
+        self:
+          textSize: lg:text-4xl md:text-3xl sm:text-2xl
     subtitle: Sustainable and Efficient Cookstoves
     text: >
       Man and Man Enterprise is committed to providing high-quality, efficient cookstoves that reduce fuel consumption and emissions, enhancing the cooking experience for households and businesses in Ghana.
+      styles:
+        self:
+          textSize: lg:text-lg md:text-base sm:text-sm
     actions:
       - label: Our Journey
         altText: ''
@@ -38,6 +44,9 @@ sections:
       label: Eco-Friendly Solutions
       color: text-primary
       type: Badge
+      styles:
+        self:
+          textSize: lg:text-xl md:text-lg sm:text-base
     elementId: ''
     colors: bg-light-fg-dark
     styles:
@@ -49,11 +58,11 @@ sections:
           - pl-8
           - pb-8
           - pr-8
-        
-         
-      
-
-
+        responsive:
+          - md:flex-col
+          - md:text-center
+          - md:p-4
+          - sm:p-2
   - type: FeaturedItemsSection
     title:
       text: Key Benefits
@@ -61,6 +70,7 @@ sections:
       styles:
         self:
           textAlign: center
+          textSize: lg:text-3xl md:text-2xl sm:text-xl
       type: TitleBlock
     subtitle: Discover the Advantages of Our Cookstoves
     items:
@@ -83,6 +93,12 @@ sections:
             flexDirection: row
             justifyContent: center
             textAlign: left
+            textSize: lg:text-lg md:text-base sm:text-sm
+            responsive:
+              - md:flex-col
+              - md:text-center
+              - md:p-4
+              - sm:p-2
         image:
           type: ImageBlock
           altText: Reduced Charcoal Usage
@@ -115,6 +131,12 @@ sections:
             flexDirection: row
             textAlign: left
             justifyContent: center
+            textSize: lg:text-lg md:text-base sm:text-sm
+            responsive:
+              - md:flex-col
+              - md:text-center
+              - md:p-4
+              - sm:p-2
 
       - type: FeaturedItem
         title: 70,000 Cookstoves Sold
@@ -137,6 +159,12 @@ sections:
               - pr-8
             borderRadius: x-large
             flexDirection: row
+            textSize: lg:text-lg md:text-base sm:text-sm
+            responsive:
+              - md:flex-col
+              - md:text-center
+              - md:p-4
+              - sm:p-2
 
     actions:
       - label: Learn More
@@ -154,6 +182,7 @@ sections:
       styles:
         self:
           textAlign: center
+          textSize: lg:text-xl md:text-lg sm:text-base
       type: Badge
     elementId: ''
     variant: three-col-grid
@@ -166,6 +195,15 @@ sections:
           - pl-16
           - pr-16
         justifyContent: center
+        responsive:
+          - md:pl-4
+          - md:pr-4
+          - md:pb-8
+          - md:pt-8
+          - sm:pl-2
+          - sm:pr-2
+          - sm:pb-4
+          - sm:pt-4
       subtitle:
         textAlign: center
 
@@ -182,6 +220,7 @@ sections:
         justifyContent: center
       subtitle:
         textAlign: center
+        textSize: lg:text-xl md:text-lg sm:text-base
 
   - type: FeaturedPostsSection
     posts:
@@ -201,6 +240,18 @@ sections:
           - pb-16
           - pr-16
         justifyContent: center
+        responsive:
+          - md:pl-4
+          - md:pr-4
+          - md:pb-8
+          - md:pt-8
+          - sm:pl-2
+          - sm:pr-2
+          - sm:pb-4
+          - sm:pt-4
+      subtitle:
+        textAlign: center
+        textSize: lg:text-xl md:text-lg sm:text-base
     hoverEffect: move-up
 
   - type: DividerSection
@@ -213,6 +264,15 @@ sections:
           - pl-7
           - pb-7
           - pr-7
+        responsive:
+          - md:pt-4
+          - md:pl-4
+          - md:pb-4
+          - md:pr-4
+          - sm:pt-2
+          - sm:pl-2
+          - sm:pb-2
+          - sm:pr-2
 
   - type: GenericSection
     title:
@@ -221,10 +281,14 @@ sections:
       styles:
         self:
           textAlign: center
+          textSize: lg:text-3xl md:text-2xl sm:text-xl
       type: TitleBlock
     subtitle: Sustainable and Efficient Cookstoves
     text: |-
       Our cookstoves are designed to be efficient, durable, and environmentally friendly, providing a reliable cooking solution for households and businesses.
+      styles:
+        self:
+          textSize: lg:text-lg md:text-base sm:text-sm
     media:
       title: Watch Our Story
       url: https://youtu.be/W37KiK27EIk
@@ -251,14 +315,19 @@ sections:
       styles:
         self:
           textAlign: center
+          textSize: lg:text-xl md:text-lg sm:text-base
       type: Badge
     colors: bg-light-fg-dark
     styles:
       self:
         flexDirection: col
         justifyContent: center
+        responsive:
+          - md:p-4
+          - sm:p-2
       subtitle:
         textAlign: center
+        textSize: lg:text-lg md:text-base sm:text-sm
 
   - type: GenericSection
     title:
@@ -267,10 +336,14 @@ sections:
       styles:
         self:
           textAlign: left
+          textSize: lg:text-3xl md:text-2xl sm:text-xl
       type: TitleBlock
     subtitle: Leading the Way in Clean Cooking
     text: |-
       Man and Man Enterprise is a leader in producing efficient, durable cookstoves that save on fuel costs and reduce emissions. Discover our innovative technology and commitment to sustainability.
+      styles:
+        self:
+          textSize: lg:text-lg md:text-base sm:text-sm
     actions: []
     media:
       title: See Our Technology
@@ -298,17 +371,27 @@ sections:
       self:
         flexDirection: row
         justifyContent: center
+        responsive:
+          - md:flex-col
+          - md:text-center
       subtitle:
         textAlign: left
+        textSize: lg:text-lg md:text-base sm:text-sm
 
   - type: GenericSection
     title:
       text: Efficient Cookstove Distribution
       color: text-dark
       type: TitleBlock
+      styles:
+        self:
+          textSize: lg:text-3xl md:text-2xl sm:text-xl
     subtitle: Reduce Your Cooking Costs
     text: >
       Enhance your cooking experience with our efficient biomass cookstoves. Our stoves reduce charcoal consumption by 40%, helping you save money and protect the environment.
+      styles:
+        self:
+          textSize: lg:text-lg md:text-base sm:text-sm
     actions:
       - label: Get started
         url: /efficient-cookstoves
@@ -331,19 +414,32 @@ sections:
       label: Eco-Friendly
       color: text-primary
       type: Badge
+      styles:
+        self:
+          textSize: lg:text-xl md:text-lg sm:text-base
     colors: bg-light-fg-dark
     styles:
       self:
         alignItems: center
+        responsive:
+          - md:text-center
+          - md:p-4
+          - sm:p-2
 
   - type: GenericSection
     title:
       text: Community Development
       color: text-dark
       type: TitleBlock
+      styles:
+        self:
+          textSize: lg:text-3xl md:text-2xl sm:text-xl
     subtitle: Empowering Local Communities
     text: >
       Our community initiatives include training artisans, providing employment, and building essential infrastructure. Join us in making a difference.
+      styles:
+        self:
+          textSize: lg:text-lg md:text-base sm:text-sm
     actions:
       - label: Get started
         url: /community-development
@@ -366,11 +462,19 @@ sections:
       label: Sustainable Growth
       color: text-primary
       type: Badge
+      styles:
+        self:
+          textSize: lg:text-xl md:text-lg sm:text-base
     colors: bg-light-fg-dark
     styles:
       self:
         alignItems: center
         flexDirection: row-reverse
+        responsive:
+          - md:flex-col
+          - md:text-center
+          - md:p-4
+          - sm:p-2
 
   - type: DividerSection
     title: Divider
@@ -382,6 +486,15 @@ sections:
           - pl-7
           - pb-7
           - pr-7
+        responsive:
+          - md:pt-4
+          - md:pl-4
+          - md:pb-4
+          - md:pr-4
+          - sm:pt-2
+          - sm:pl-2
+          - sm:pb-2
+          - sm:pr-2
 
   - type: CarouselSection
     title: null
@@ -399,6 +512,7 @@ sections:
           styles:
             self:
               borderRadius: full
+              textSize: lg:text-lg md:text-base sm:text-sm
           type: ImageBlock
         actions: []
         colors: bg-neutralAlt-fg-dark
@@ -413,6 +527,11 @@ sections:
             borderRadius: large
             flexDirection: row
             justifyContent: center
+            responsive:
+              - md:flex-col
+              - md:text-center
+              - md:p-4
+              - sm:p-2
         type: FeaturedItem
 
       - title: >-
@@ -427,6 +546,7 @@ sections:
           styles:
             self:
               borderRadius: full
+              textSize: lg:text-lg md:text-base sm:text-sm
           type: ImageBlock
         actions: []
         colors: bg-neutralAlt-fg-dark
@@ -441,6 +561,11 @@ sections:
             borderRadius: large
             flexDirection: row
             justifyContent: center
+            responsive:
+              - md:flex-col
+              - md:text-center
+              - md:p-4
+              - sm:p-2
         type: FeaturedItem
 
       - title: >-
@@ -455,6 +580,7 @@ sections:
           styles:
             self:
               borderRadius: full
+              textSize: lg:text-lg md:text-base sm:text-sm
           type: ImageBlock
         actions: []
         colors: bg-neutralAlt-fg-dark
@@ -469,6 +595,11 @@ sections:
             borderRadius: large
             flexDirection: row
             justifyContent: center
+            responsive:
+              - md:flex-col
+              - md:text-center
+              - md:p-4
+              - sm:p-2
         type: FeaturedItem
 
       - title: >-
@@ -483,6 +614,7 @@ sections:
           styles:
             self:
               borderRadius: full
+              textSize: lg:text-lg md:text-base sm:text-sm
           type: ImageBlock
         actions: []
         colors: bg-neutralAlt-fg-dark
@@ -497,6 +629,11 @@ sections:
             borderRadius: large
             flexDirection: row
             justifyContent: center
+            responsive:
+              - md:flex-col
+              - md:text-center
+              - md:p-4
+              - sm:p-2
         type: FeaturedItem
 
       - title: >-
@@ -511,6 +648,7 @@ sections:
           styles:
             self:
               borderRadius: full
+              textSize: lg:text-lg md:text-base sm:text-sm
           type: ImageBlock
         actions: []
         colors: bg-neutralAlt-fg-dark
@@ -525,6 +663,11 @@ sections:
             borderRadius: large
             flexDirection: row
             justifyContent: center
+            responsive:
+              - md:flex-col
+              - md:text-center
+              - md:p-4
+              - sm:p-2
         type: FeaturedItem
 
       - title: >-
@@ -539,6 +682,7 @@ sections:
           styles:
             self:
               borderRadius: full
+              textSize: lg:text-lg md:text-base sm:text-sm
           type: ImageBlock
         actions: []
         colors: bg-dark-fg-light
@@ -553,6 +697,11 @@ sections:
             borderRadius: large
             flexDirection: row
             justifyContent: center
+            responsive:
+              - md:flex-col
+              - md:text-center
+              - md:p-4
+              - sm:p-2
         type: FeaturedItem
     elementId: ''
     variant: next-prev-nav
@@ -562,6 +711,7 @@ sections:
         justifyContent: center
       subtitle:
         textAlign: center
+        textSize: lg:text-xl md:text-lg sm:text-base
 
   - type: FeaturedItemsSection
     title:
@@ -570,6 +720,7 @@ sections:
       styles:
         self:
           textAlign: center
+          textSize: lg:text-3xl md:text-2xl sm:text-xl
       type: TitleBlock
     subtitle: Featured Items Section
     items:
@@ -579,12 +730,16 @@ sections:
         subtitle: This is the item subtitle
         text: |
           Our stoves save 40% on charcoal consumption compared to traditional stoves.
+          styles:
+            self:
+              textSize: lg:text-lg md:text-base sm:text-sm
         image:
           url: /images/abstract-feature1.svg
           altText: Placeholder Image
           styles:
             self:
               borderRadius: x-large
+              textSize: lg:text-lg md:text-base sm:text-sm
           type: ImageBlock
         colors: bg-light-fg-dark
         styles:
@@ -596,6 +751,9 @@ sections:
               - pr-8
             borderRadius: x-large
             flexDirection: col
+            responsive:
+              - md:p-4
+              - sm:p-2
 
       - type: FeaturedItem
         title: Community Impact
@@ -603,12 +761,16 @@ sections:
         subtitle: This is the item subtitle
         text: |
           Training programs and employment opportunities for local artisans.
+          styles:
+            self:
+              textSize: lg:text-lg md:text-base sm:text-sm
         image:
           url: /images/abstract-feature2.svg
           altText: Placeholder image
           styles:
             self:
               borderRadius: x-large
+              textSize: lg:text-lg md:text-base sm:text-sm
           type: ImageBlock
         colors: bg-light-fg-dark
         styles:
@@ -620,6 +782,9 @@ sections:
               - pr-8
             borderRadius: x-large
             flexDirection: col
+            responsive:
+              - md:p-4
+              - sm:p-2
 
       - type: FeaturedItem
         title: Environmental Conservation
@@ -627,12 +792,16 @@ sections:
         subtitle: This is the item subtitle
         text: |
           Our cookstoves help reduce deforestation and carbon emissions.
+          styles:
+            self:
+              textSize: lg:text-lg md:text-base sm:text-sm
         image:
           url: /images/abstract-feature1.svg
           altText: Placeholder Image
           styles:
             self:
               borderRadius: x-large
+              textSize: lg:text-lg md:text-base sm:text-sm
           type: ImageBlock
         colors: bg-light-fg-dark
         styles:
@@ -644,6 +813,9 @@ sections:
               - pr-8
             borderRadius: x-large
             flexDirection: col
+            responsive:
+              - md:p-4
+              - sm:p-2
     variant: three-col-grid
     colors: bg-neutral-fg-dark
     styles:
@@ -654,17 +826,27 @@ sections:
           - pb-16
           - pr-8
         justifyContent: center
+        responsive:
+          - md:p-4
+          - sm:p-2
       subtitle:
         textAlign: center
+        textSize: lg:text-lg md:text-base sm:text-sm
 
   - type: GenericSection
     title:
       text: Contact Us
       color: text-dark
       type: TitleBlock
+      styles:
+        self:
+          textSize: lg:text-3xl md:text-2xl sm:text-xl
     subtitle: Get in Touch
     text: |-
       Have any questions or want to learn more about our initiatives? Reach out to us using the form below.
+      styles:
+        self:
+          textSize: lg:text-lg md:text-base sm:text-sm
     media:
       fields:
         - name: name
@@ -674,6 +856,9 @@ sections:
           isRequired: true
           width: full
           type: TextFormControl
+          styles:
+            self:
+              textSize: lg:text-lg md:text-base sm:text-sm
         - name: email
           label: Email
           hideLabel: true
@@ -681,12 +866,18 @@ sections:
           isRequired: true
           width: full
           type: EmailFormControl
+          styles:
+            self:
+              textSize: lg:text-lg md:text-base sm:text-sm
         - name: message
           label: Message
           hideLabel: true
           placeholder: Your message
           width: full
           type: TextareaFormControl
+          styles:
+            self:
+              textSize: lg:text-lg md:text-base sm:text-sm
       elementId: contact-form
       styles:
         self:
@@ -699,6 +890,7 @@ sections:
           borderStyle: solid
           borderWidth: 1
           borderRadius: large
+          textSize: lg:text-lg md:text-base sm:text-sm
       type: FormBlock
     submitButton:
       type: SubmitButtonFormControl
@@ -708,10 +900,16 @@ sections:
       iconPosition: right
       style: primary
       elementId: null
+      styles:
+        self:
+          textSize: lg:text-lg md:text-base sm:text-sm
     badge:
       label: Contact Us
       color: text-primary
       type: Badge
+      styles:
+        self:
+          textSize: lg:text-xl md:text-lg sm:text-base
     colors: bg-light-fg-dark
 
 seo:
