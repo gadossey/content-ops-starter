@@ -17,7 +17,7 @@ sections:
     actions:
       - label: Our Journey
         altText: ''
-        url: /
+        url: /about
         showIcon: false
         icon: arrowRight
         iconPosition: right
@@ -397,8 +397,8 @@ sections:
         iconPosition: right
         style: secondary
         type: Button
-      - label: See Tutorials
-        url: /tutorials
+      - label: See Our Gallery
+        url: /our-gallery
         showIcon: true
         icon: arrowRight
         iconPosition: right

@@ -13,8 +13,6 @@ export default function DefaultBaseLayout(props) {
     let metaTags = seoGenerateMetaTags(page, site);
     let metaDescription = seoGenerateMetaDescription(page, site);
 
-    console.log('Site Data:', site);
-
     return (
         <div className={classNames('sb-page', pageMeta.pageCssClasses)} {...(enableAnnotations && { 'data-sb-object-id': pageMeta.id })}>
             <div className="sb-base sb-default-base-layout">

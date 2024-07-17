@@ -8,8 +8,10 @@ export function getAllCategoryPostsSorted(objects, categoryId) {
     const categoryPosts = allPosts.filter((post) => post.category === categoryId);
     return sortPosts(categoryPosts);
 }
-
 export function getAllPosts(objects) {
+    if (!objects) {
+        throw new Error('objects is undefined');
+    }
     return objects.filter((object) => object.__metadata?.modelName === 'PostLayout');
 }
 
