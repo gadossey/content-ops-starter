@@ -11,7 +11,7 @@
             {
                 "label": "Features",
                 "altText": "Features of our stoves",
-                "url": "/features",
+                "url": "/products",
                 "icon": "arrowRight",
                 "iconPosition": "right",
                 "style": "secondary",

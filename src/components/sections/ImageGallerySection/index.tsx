@@ -10,11 +10,12 @@ import Badge from '../../atoms/Badge';
 
 export default function ImageGallerySection(props) {
     const { elementId, colors, backgroundImage, badge, title, subtitle, images = [], motion, styles = {}, enableAnnotations } = props;
+    const isGalleryPage = elementId === 'gallery-images';
 
     return (
         <Section
             elementId={elementId}
-            className="sb-component-image-gallery-section"
+            className={classNames('sb-component-image-gallery-section', { 'gallery-page-section': isGalleryPage })}
             colors={colors}
             backgroundImage={backgroundImage}
             styles={styles?.self}
@@ -52,6 +53,7 @@ export default function ImageGallerySection(props) {
                     hasTopMargin={!!(badge?.label || title?.text || subtitle)}
                     justifyContent={styles?.self?.justifyContent}
                     hasAnnotations={enableAnnotations}
+                    isGalleryPage={isGalleryPage} // Pass the flag to the variants
                 />
             </div>
         </Section>
@@ -59,17 +61,17 @@ export default function ImageGallerySection(props) {
 }
 
 function ImageGalleryVariants(props) {
-    const { motion = 'static' } = props;
+    const { motion = 'static', isGalleryPage } = props;
     switch (motion) {
         case 'move-to-left':
         case 'move-to-right':
-            return <ImageGalleryAnimatedGrid {...props} />;
+            return <ImageGalleryAnimatedGrid {...props} isGalleryPage={isGalleryPage} />;
         default:
-            return <ImageGalleryStaticGrid {...props} />;
+            return <ImageGalleryStaticGrid {...props} isGalleryPage={isGalleryPage} />;
     }
 }
 
-function ImageGalleryStaticGrid({ images = [], hasTopMargin, justifyContent = 'flex-start', hasAnnotations }) {
+function ImageGalleryStaticGrid({ images = [], hasTopMargin, justifyContent = 'flex-start', hasAnnotations, isGalleryPage }) {
     if (images.length === 0) {
         return null;
     }
@@ -79,13 +81,15 @@ function ImageGalleryStaticGrid({ images = [], hasTopMargin, justifyContent = 'f
             {...(hasAnnotations && { 'data-sb-field-path': '.images' })}
         >
             {images.map((image, index) => (
-                <ImageBlock key={index} {...image} {...(hasAnnotations && { 'data-sb-field-path': `.${index}` })} />
+                <div key={index} className={isGalleryPage ? 'gallery-page-image' : ''} {...(hasAnnotations && { 'data-sb-field-path': `.${index}` })}>
+                    <img src={image.url} alt={image.altText} style={isGalleryPage ? { maxHeight: '250px', width: 'auto', height: 'auto' } : {}} />
+                </div>
             ))}
         </div>
     );
 }
 
-function ImageGalleryAnimatedGrid({ images = [], motion, hasTopMargin, hasAnnotations }) {
+function ImageGalleryAnimatedGrid({ images = [], motion, hasTopMargin, hasAnnotations, isGalleryPage }) {
     if (images.length === 0) {
         return null;
     }
@@ -123,19 +127,23 @@ function ImageGalleryAnimatedGrid({ images = [], motion, hasTopMargin, hasAnnota
                         className={classNames(
                             'sb-image-strip-track',
                             'flex',
-                            ' items-center',
+                            'items-center',
                             'w-max',
                             motion === 'move-to-left' ? 'sb-animate-slide-left' : 'sb-animate-slide-right'
                         )}
                     >
                         <div className="sb-image-strip-content flex justify-around" {...(hasAnnotations && { 'data-sb-field-path': '.images' })}>
                             {images.map((image, index) => (
-                                <ImageBlock key={index} {...image} {...(hasAnnotations && { 'data-sb-field-path': `.${index}` })} />
+                                <div key={index} className={isGalleryPage ? 'gallery-page-image' : ''} {...(hasAnnotations && { 'data-sb-field-path': `.${index}` })}>
+                                    <img src={image.url} alt={image.altText} style={isGalleryPage ? { maxHeight: '250px', width: 'auto', height: 'auto' } : {}} />
+                                </div>
                             ))}
                         </div>
                         <div className="sb-image-strip-content flex justify-around" {...(hasAnnotations && { 'data-sb-field-path': '.images' })}>
                             {images.map((image, index) => (
-                                <ImageBlock key={index} {...image} {...(hasAnnotations && { 'data-sb-field-path': `.${index}` })} />
+                                <div key={index} className={isGalleryPage ? 'gallery-page-image' : ''} {...(hasAnnotations && { 'data-sb-field-path': `.${index}` })}>
+                                    <img src={image.url} alt={image.altText} style={isGalleryPage ? { maxHeight: '250px', width: 'auto', height: 'auto' } : {}} />
+                                </div>
                             ))}
                         </div>
                     </div>

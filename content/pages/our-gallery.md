@@ -5,12 +5,17 @@ sections:
   - type: GenericSection
     title:
       text: Welcome to Our Gallery
-      color: text-dark
+      color: text-white 
       type: TitleBlock
     text: |
       Explore our collection of photos showcasing the impact of our work, our community initiatives, and the events we've hosted over the years. Each image tells a story of our commitment to enhancing lives and protecting the environment.
     elementId: welcome
-    colors: bg-light-fg-dark
+    colors: text-white 
+    backgroundImage:
+      url: /images/background-welcome-large.png
+      position: center
+      size: cover
+      repeat: no-repeat
     styles:
       self:
         padding:
@@ -37,6 +42,7 @@ sections:
       - url: /images/gallery/image5.jpg
         altText: Image description 5
         type: ImageBlock
+    elementId: gallery-images
     motion: move-to-left
     colors: bg-neutral-fg-dark
     styles:
@@ -74,4 +80,5 @@ seo:
   type: Seo
 
 type: PageLayout
+
 ---
