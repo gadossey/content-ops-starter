@@ -28,7 +28,7 @@
             "iconPosition": "right",
             "style": "secondary",
             "type": "Link",
-            "showIcon": false
+            "showIcon": true
         },
         {
             "label": "Our Gallery",
