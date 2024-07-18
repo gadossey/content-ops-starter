@@ -156,16 +156,8 @@ sections:
               - md:p-4
               - sm:p-2
 
-    actions:
-      - label: Learn More
-        altText: ''
-        url: /benefits
-        showIcon: true
-        icon: arrowRight
-        iconPosition: right
-        style: primary
-        elementId: ''
-        type: Button
+    
+     
     badge:
       label: Trusted by Thousands
       color: text-primary
@@ -352,7 +344,7 @@ sections:
      
     actions:
       - label: Get started
-        url: /efficient-cookstoves
+        url: /about
         icon: arrowRight
         iconPosition: right
         style: secondary
@@ -400,7 +392,7 @@ sections:
       
     actions:
       - label: Get started
-        url: /community-development
+        url: /about
         icon: arrowRight
         iconPosition: right
         style: secondary
