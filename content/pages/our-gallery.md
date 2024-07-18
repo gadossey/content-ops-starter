@@ -83,5 +83,7 @@ seo:
     Ghana.
   socialImage: /images/logo-white.svg
   type: Seo
+  metaTags:
+    - type: MetaTag
 type: PageLayout
 ---
