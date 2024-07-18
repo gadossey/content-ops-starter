@@ -349,9 +349,7 @@ sections:
     subtitle: Reduce Your Cooking Costs
     text: >
       Enhance your cooking experience with our efficient biomass cookstoves. Our stoves reduce charcoal consumption by 40%, helping you save money and protect the environment.
-      styles:
-        self:
-          textSize: lg:text-lg md:text-base sm:text-sm
+     
     actions:
       - label: Get started
         url: /efficient-cookstoves
@@ -399,9 +397,7 @@ sections:
     subtitle: Empowering Local Communities
     text: >
       Our community initiatives include training artisans, providing employment, and building essential infrastructure. Join us in making a difference.
-      styles:
-        self:
-          textSize: lg:text-lg md:text-base sm:text-sm
+      
     actions:
       - label: Get started
         url: /community-development
@@ -409,13 +405,7 @@ sections:
         iconPosition: right
         style: secondary
         type: Button
-      - label: See Impact
-        url: /impact
-        showIcon: true
-        icon: arrowRight
-        iconPosition: right
-        style: primary
-        type: Link
+     
     media:
       url: /images/community.jpg
       altText: Community Development
