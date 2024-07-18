@@ -24,15 +24,7 @@ sections:
         style: secondary
         elementId: ''
         type: Button
-      - label: See Our Products
-        altText: ''
-        url: /products
-        showIcon: true
-        icon: arrowRight
-        iconPosition: right
-        style: primary
-        elementId: ''
-        type: Link
+      
     media:
       url: /images/main-hero.jpg
       altText: Enhancing Cooking Efficiency for Every Household
