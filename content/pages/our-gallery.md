@@ -29,7 +29,7 @@ sections:
   - type: GenericSection
     title:
       text: Join Our Journey
-      color: text-dark
+      color: text-primary
       type: TitleBlock
     text: >
       Be part of our journey towards creating a sustainable and efficient
