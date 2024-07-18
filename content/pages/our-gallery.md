@@ -26,6 +26,24 @@ sections:
           - pb-8
           - pl-8
           - pr-8
+  - type: GenericSection
+    title:
+      text: Join Our Journey
+      color: text-dark
+      type: TitleBlock
+    text: >
+      Be part of our journey towards creating a sustainable and efficient
+      cooking solution for everyone. Check out our gallery to see how we're
+      making a difference.
+    elementId: join-journey
+    colors: bg-light-fg-dark
+    styles:
+      self:
+        padding:
+          - pt-8
+          - pb-8
+          - pl-8
+          - pr-8
   - type: ImageGallerySection
     subtitle: Our Work in Pictures
     images:
@@ -57,24 +75,6 @@ sections:
           - pr-8
       subtitle:
         textAlign: center
-  - type: GenericSection
-    title:
-      text: Join Our Journey
-      color: text-dark
-      type: TitleBlock
-    text: >
-      Be part of our journey towards creating a sustainable and efficient
-      cooking solution for everyone. Check out our gallery to see how we're
-      making a difference.
-    elementId: join-journey
-    colors: bg-light-fg-dark
-    styles:
-      self:
-        padding:
-          - pt-8
-          - pb-8
-          - pl-8
-          - pr-8
 seo:
   metaTitle: Our Gallery - Man and Man Enterprise
   metaDescription: >-
