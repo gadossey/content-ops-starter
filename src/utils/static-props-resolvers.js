@@ -18,7 +18,7 @@ export async function resolveStaticProps(urlPath, data) {
     }
 
     const { __metadata, ...rest } = page;
-    const site = data.site || {}; // Ensure site is an object
+    const site = data.site || {}; 
 
     const props = {
         page: {
@@ -31,7 +31,7 @@ export async function resolveStaticProps(urlPath, data) {
         ...data.props,
         site: {
             ...site,
-            footer: site.footer || null // Ensure footer is not undefined
+            footer: site.footer || null 
         }
     };
 

@@ -27,12 +27,6 @@
     },
     "socialLinks": [
         {
-            "altText": "GitHub link",
-            "url": "https://github.com/manandmanenterprise",
-            "icon": "github",
-            "type": "Social"
-        },
-        {
             "altText": "Twitter link",
             "url": "https://twitter.com/manandman_gh",
             "icon": "twitter",

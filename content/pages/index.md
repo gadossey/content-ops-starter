@@ -670,9 +670,7 @@ sections:
     subtitle: Get in Touch
     text: |-
       Have any questions or want to learn more about our initiatives? Reach out to us using the form below.
-      styles:
-        self:
-          textSize: lg:text-lg md:text-base sm:text-sm
+     
     media:
       fields:
         - name: name
