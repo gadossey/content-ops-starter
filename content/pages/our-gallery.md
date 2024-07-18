@@ -5,12 +5,15 @@ sections:
   - type: GenericSection
     title:
       text: Welcome to Our Gallery
-      color: text-white 
+      color: text-white
       type: TitleBlock
-    text: |
-      Explore our collection of photos showcasing the impact of our work, our community initiatives, and the events we've hosted over the years. Each image tells a story of our commitment to enhancing lives and protecting the environment.
+    text: >
+      Explore our collection of photos showcasing the impact of our work, our
+      community initiatives, and the events we've hosted over the years. Each
+      image tells a story of our commitment to enhancing lives and protecting
+      the environment.
     elementId: welcome
-    colors: text-white 
+    colors: text-white
     backgroundImage:
       url: /images/background-welcome-large.png
       position: center
@@ -23,7 +26,6 @@ sections:
           - pb-8
           - pl-8
           - pr-8
-
   - type: ImageGallerySection
     subtitle: Our Work in Pictures
     images:
@@ -55,14 +57,15 @@ sections:
           - pr-8
       subtitle:
         textAlign: center
-
   - type: GenericSection
     title:
       text: Join Our Journey
       color: text-dark
       type: TitleBlock
-    text: |
-      Be part of our journey towards creating a sustainable and efficient cooking solution for everyone. Check out our gallery to see how we're making a difference.
+    text: >
+      Be part of our journey towards creating a sustainable and efficient
+      cooking solution for everyone. Check out our gallery to see how we're
+      making a difference.
     elementId: join-journey
     colors: bg-light-fg-dark
     styles:
@@ -72,13 +75,13 @@ sections:
           - pb-8
           - pl-8
           - pr-8
-
 seo:
   metaTitle: Our Gallery - Man and Man Enterprise
-  metaDescription: Explore the gallery of Man and Man Enterprise, showcasing our work, community initiatives, and events. See how we are making a difference in Ghana.
-  socialImage: /images/gallery/main-gallery.jpg
+  metaDescription: >-
+    Explore the gallery of Man and Man Enterprise, showcasing our work,
+    community initiatives, and events. See how we are making a difference in
+    Ghana.
+  socialImage: /images/logo-white.svg
   type: Seo
-
 type: PageLayout
-
 ---
