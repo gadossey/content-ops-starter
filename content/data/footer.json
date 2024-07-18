@@ -7,33 +7,7 @@
     "text": "Empowering communities through efficient and sustainable cooking solutions",
     "primaryLinks": {
         "title": "Our Work",
-        "links": [
-            {
-                "label": "Features",
-                "altText": "Features of our stoves",
-                "url": "/products",
-                "icon": "arrowRight",
-                "iconPosition": "right",
-                "style": "secondary",
-                "type": "Link"
-            },
-            {
-                "label": "Impact",
-                "url": "/impact",
-                "icon": "arrowRight",
-                "iconPosition": "right",
-                "style": "secondary",
-                "type": "Link"
-            },
-            {
-                "label": "Sustainability",
-                "url": "/sustainability",
-                "icon": "arrowRight",
-                "iconPosition": "right",
-                "style": "secondary",
-                "type": "Link"
-            }
-        ],
+        "links": [],
         "type": "FooterLinksGroup"
     },
     "secondaryLinks": {
@@ -42,15 +16,7 @@
             {
                 "label": "About Us",
                 "altText": "About Us",
-                "url": "/about-us",
-                "icon": "arrowRight",
-                "iconPosition": "right",
-                "style": "secondary",
-                "type": "Link"
-            },
-            {
-                "label": "Blog",
-                "url": "/blog",
+                "url": "/about",
                 "icon": "arrowRight",
                 "iconPosition": "right",
                 "style": "secondary",

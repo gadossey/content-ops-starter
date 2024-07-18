@@ -14,9 +14,7 @@ sections:
     subtitle: Get in Touch
     text: |-
       Have any questions or want to learn more about our initiatives? Reach out to us using the form below.
-      styles:
-        self:
-          textSize: lg:text-lg md:text-base sm:text-sm
+  
     media:
       fields:
         - name: name
@@ -83,7 +81,7 @@ sections:
     colors: bg-light-fg-dark
 
 seo:
-  metaTitle: Man and Man Enterprise
+  metaTitle: Contact Us
   metaDescription: Discover Man and Man Enterprise's innovative and efficient cookstoves designed to enhance cooking experiences while reducing environmental impact.
   socialImage: /images/main-hero.jpg
   type: Seo

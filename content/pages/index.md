@@ -223,37 +223,7 @@ sections:
         textAlign: center
         textSize: lg:text-xl md:text-lg sm:text-base
 
-  - type: FeaturedPostsSection
-    posts:
-      - content/pages/blog/transforming-lives-protecting-environment.md
-      - content/pages/blog/empowering-communities-efficient-cookstoves.md
-      - content/pages/blog/sustainable-cooking-solutions-ghana.md
-    showThumbnail: true
-    showDate: true
-    showAuthor: true
-    variant: three-col-grid
-    colors: bg-light-fg-dark
-    styles:
-      self:
-        padding:
-          - pt-16
-          - pl-16
-          - pb-16
-          - pr-16
-        justifyContent: center
-        responsive:
-          - md:pl-4
-          - md:pr-4
-          - md:pb-8
-          - md:pt-8
-          - sm:pl-2
-          - sm:pr-2
-          - sm:pb-4
-          - sm:pt-4
-      subtitle:
-        textAlign: center
-        textSize: lg:text-xl md:text-lg sm:text-base
-    hoverEffect: move-up
+ 
 
   - type: DividerSection
     title: Divider
@@ -287,9 +257,7 @@ sections:
     subtitle: Sustainable and Efficient Cookstoves
     text: |-
       Our cookstoves are designed to be efficient, durable, and environmentally friendly, providing a reliable cooking solution for households and businesses.
-      styles:
-        self:
-          textSize: lg:text-lg md:text-base sm:text-sm
+      
     media:
       title: Watch Our Story
       url: https://youtu.be/W37KiK27EIk
@@ -715,125 +683,7 @@ sections:
         textAlign: center
         textSize: lg:text-xl md:text-lg sm:text-base
 
-  - type: FeaturedItemsSection
-    title:
-      text: List of Features
-      color: text-primary
-      styles:
-        self:
-          textAlign: center
-          textSize: lg:text-3xl md:text-2xl sm:text-xl
-      type: TitleBlock
-    subtitle: Featured Items Section
-    items:
-      - type: FeaturedItem
-        title: Improved Efficiency
-        tagline: This is the tagline
-        subtitle: This is the item subtitle
-        text: |
-          Our stoves save 40% on charcoal consumption compared to traditional stoves.
-          styles:
-            self:
-              textSize: lg:text-lg md:text-base sm:text-sm
-        image:
-          url: /images/abstract-feature1.svg
-          altText: Placeholder Image
-          styles:
-            self:
-              borderRadius: x-large
-              textSize: lg:text-lg md:text-base sm:text-sm
-          type: ImageBlock
-        colors: bg-light-fg-dark
-        styles:
-          self:
-            padding:
-              - pt-8
-              - pl-8
-              - pb-8
-              - pr-8
-            borderRadius: x-large
-            flexDirection: col
-            responsive:
-              - md:p-4
-              - sm:p-2
-
-      - type: FeaturedItem
-        title: Community Impact
-        tagline: This is the tagline
-        subtitle: This is the item subtitle
-        text: |
-          Training programs and employment opportunities for local artisans.
-          styles:
-            self:
-              textSize: lg:text-lg md:text-base sm:text-sm
-        image:
-          url: /images/abstract-feature2.svg
-          altText: Placeholder image
-          styles:
-            self:
-              borderRadius: x-large
-              textSize: lg:text-lg md:text-base sm:text-sm
-          type: ImageBlock
-        colors: bg-light-fg-dark
-        styles:
-          self:
-            padding:
-              - pt-8
-              - pl-8
-              - pb-8
-              - pr-8
-            borderRadius: x-large
-            flexDirection: col
-            responsive:
-              - md:p-4
-              - sm:p-2
-
-      - type: FeaturedItem
-        title: Environmental Conservation
-        tagline: This is the tagline
-        subtitle: This is the item subtitle
-        text: |
-          Our cookstoves help reduce deforestation and carbon emissions.
-          styles:
-            self:
-              textSize: lg:text-lg md:text-base sm:text-sm
-        image:
-          url: /images/abstract-feature1.svg
-          altText: Placeholder Image
-          styles:
-            self:
-              borderRadius: x-large
-              textSize: lg:text-lg md:text-base sm:text-sm
-          type: ImageBlock
-        colors: bg-light-fg-dark
-        styles:
-          self:
-            padding:
-              - pt-8
-              - pl-8
-              - pb-8
-              - pr-8
-            borderRadius: x-large
-            flexDirection: col
-            responsive:
-              - md:p-4
-              - sm:p-2
-    variant: three-col-grid
-    colors: bg-neutral-fg-dark
-    styles:
-      self:
-        padding:
-          - pt-16
-          - pl-8
-          - pb-16
-          - pr-8
-        justifyContent: center
-        responsive:
-          - md:p-4
-          - sm:p-2
-      subtitle:
-        textAlign: center
-        textSize: lg:text-lg md:text-base sm:text-sm
+  
 
   - type: GenericSection
     title:
