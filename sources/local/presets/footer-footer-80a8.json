@@ -74,13 +74,6 @@
                 },
                 "socialLinks": [
                     {
-                        "altText": "GitHub link",
-                        "url": "https://github.com/manandman",
-                        "icon": "github",
-                        "elementId": null,
-                        "$$type": "Social"
-                    },
-                    {
                         "altText": "Twitter link",
                         "url": "https://twitter.com/manandman",
                         "icon": "twitter",
