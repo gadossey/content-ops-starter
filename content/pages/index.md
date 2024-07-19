@@ -9,11 +9,12 @@ sections:
       type: TitleBlock
       styles:
         self:
-          textSize: lg:text-4xl md:text-3xl sm:text-2xl
+          textSize: 'lg:text-4xl md:text-3xl sm:text-2xl'
     subtitle: Sustainable and Efficient Cookstoves
     text: >
-      Man and Man Enterprise is committed to providing high-quality, efficient cookstoves that reduce fuel consumption and emissions, enhancing the cooking experience for households and businesses in Ghana.
-    
+      Man and Man Enterprise is committed to providing high-quality, efficient
+      cookstoves that reduce fuel consumption and emissions, enhancing the
+      cooking experience for households and businesses in Ghana.
     actions:
       - label: Our Journey
         altText: ''
@@ -24,7 +25,6 @@ sections:
         style: secondary
         elementId: ''
         type: Button
-      
     media:
       url: /images/main-hero.jpg
       altText: Enhancing Cooking Efficiency for Every Household
@@ -36,7 +36,7 @@ sections:
       type: Badge
       styles:
         self:
-          textSize: lg:text-xl md:text-lg sm:text-base
+          textSize: 'lg:text-xl md:text-lg sm:text-base'
     elementId: ''
     colors: bg-light-fg-dark
     styles:
@@ -49,10 +49,10 @@ sections:
           - pb-8
           - pr-8
         responsive:
-          - md:flex-col
-          - md:text-center
-          - md:p-4
-          - sm:p-2
+          - 'md:flex-col'
+          - 'md:text-center'
+          - 'md:p-4'
+          - 'sm:p-2'
   - type: FeaturedItemsSection
     title:
       text: Key Benefits
@@ -60,7 +60,7 @@ sections:
       styles:
         self:
           textAlign: center
-          textSize: lg:text-3xl md:text-2xl sm:text-xl
+          textSize: 'lg:text-3xl md:text-2xl sm:text-xl'
       type: TitleBlock
     subtitle: Discover the Advantages of Our Cookstoves
     items:
@@ -68,7 +68,8 @@ sections:
         title: 50% Reduced Charcoal Usage
         subtitle: Save on Fuel Costs
         text: >-
-          Our cookstoves reduce charcoal consumption by 50%, helping households save on fuel costs and contributing to environmental sustainability.
+          Our cookstoves reduce charcoal consumption by 50%, helping households
+          save on fuel costs and contributing to environmental sustainability.
         actions: []
         elementId: ''
         colors: bg-neutralAlt-fg-dark
@@ -83,12 +84,12 @@ sections:
             flexDirection: row
             justifyContent: center
             textAlign: left
-            textSize: lg:text-lg md:text-base sm:text-sm
+            textSize: 'lg:text-lg md:text-base sm:text-sm'
             responsive:
-              - md:flex-col
-              - md:text-center
-              - md:p-4
-              - sm:p-2
+              - 'md:flex-col'
+              - 'md:text-center'
+              - 'md:p-4'
+              - 'sm:p-2'
         image:
           type: ImageBlock
           altText: Reduced Charcoal Usage
@@ -97,12 +98,12 @@ sections:
           styles:
             self:
               borderRadius: x-large
-
       - type: FeaturedItem
-        title: 47,244 Tons CO2 Reduction
+        title: +1M Tons CO2 Reduction
         subtitle: Environmental Impact
         text: >-
-          Our improved cookstoves have significantly reduced greenhouse gas emissions, with an annual reduction of 47,244 tons of CO2.
+          Our improved cookstoves have significantly reduced greenhouse gas
+          emissions, with an annual reduction of 47,244 tons of CO2.
         image:
           url: /images/icon2.svg
           altText: CO2 Reduction
@@ -121,18 +122,18 @@ sections:
             flexDirection: row
             textAlign: left
             justifyContent: center
-            textSize: lg:text-lg md:text-base sm:text-sm
+            textSize: 'lg:text-lg md:text-base sm:text-sm'
             responsive:
-              - md:flex-col
-              - md:text-center
-              - md:p-4
-              - sm:p-2
-
+              - 'md:flex-col'
+              - 'md:text-center'
+              - 'md:p-4'
+              - 'sm:p-2'
       - type: FeaturedItem
-        title: 70,000 Cookstoves Sold
+        title: '70,000 Cookstoves Sold'
         subtitle: Wide Reach
         text: >-
-          We have successfully sold over 70,000 cookstoves, positively impacting numerous households and reducing deforestation.
+          We have successfully sold over 70,000 cookstoves, positively impacting
+          numerous households and reducing deforestation.
         image:
           url: /images/icon3.svg
           altText: Cookstoves Sold
@@ -149,22 +150,19 @@ sections:
               - pr-8
             borderRadius: x-large
             flexDirection: row
-            textSize: lg:text-lg md:text-base sm:text-sm
+            textSize: 'lg:text-lg md:text-base sm:text-sm'
             responsive:
-              - md:flex-col
-              - md:text-center
-              - md:p-4
-              - sm:p-2
-
-    
-     
+              - 'md:flex-col'
+              - 'md:text-center'
+              - 'md:p-4'
+              - 'sm:p-2'
     badge:
       label: Trusted by Thousands
       color: text-primary
       styles:
         self:
           textAlign: center
-          textSize: lg:text-xl md:text-lg sm:text-base
+          textSize: 'lg:text-xl md:text-lg sm:text-base'
       type: Badge
     elementId: ''
     variant: three-col-grid
@@ -178,17 +176,16 @@ sections:
           - pr-4
         justifyContent: center
         responsive:
-          - md:pl-4
-          - md:pr-4
-          - md:pb-8
-          - md:pt-8
-          - sm:pl-2
-          - sm:pr-2
-          - sm:pb-4
-          - sm:pt-4
+          - 'md:pl-4'
+          - 'md:pr-4'
+          - 'md:pb-8'
+          - 'md:pt-8'
+          - 'sm:pl-2'
+          - 'sm:pr-2'
+          - 'sm:pb-4'
+          - 'sm:pt-4'
       subtitle:
         textAlign: center
-
   - type: ImageGallerySection
     subtitle: Our Partners
     images:
@@ -205,10 +202,7 @@ sections:
         justifyContent: center
       subtitle:
         textAlign: center
-        textSize: lg:text-xl md:text-lg sm:text-base
-
- 
-
+        textSize: 'lg:text-xl md:text-lg sm:text-base'
   - type: DividerSection
     title: Divider
     colors: bg-light-fg-dark
@@ -220,15 +214,14 @@ sections:
           - pb-7
           - pr-7
         responsive:
-          - md:pt-4
-          - md:pl-4
-          - md:pb-4
-          - md:pr-4
-          - sm:pt-2
-          - sm:pl-2
-          - sm:pb-2
-          - sm:pr-2
-
+          - 'md:pt-4'
+          - 'md:pl-4'
+          - 'md:pb-4'
+          - 'md:pr-4'
+          - 'sm:pt-2'
+          - 'sm:pl-2'
+          - 'sm:pb-2'
+          - 'sm:pr-2'
   - type: GenericSection
     title:
       text: Grow Your Business with Our Solutions
@@ -236,15 +229,16 @@ sections:
       styles:
         self:
           textAlign: center
-          textSize: lg:text-3xl md:text-2xl sm:text-xl
+          textSize: 'lg:text-3xl md:text-2xl sm:text-xl'
       type: TitleBlock
     subtitle: Sustainable and Efficient Cookstoves
-    text: |-
-      Our cookstoves are designed to be efficient, durable, and environmentally friendly, providing a reliable cooking solution for households and businesses.
-      
+    text: >-
+      Our cookstoves are designed to be efficient, durable, and environmentally
+      friendly, providing a reliable cooking solution for households and
+      businesses.
     media:
       title: Watch Our Story
-      url: https://youtu.be/W37KiK27EIk
+      url: 'https://youtu.be/W37KiK27EIk'
       controls: true
       aspectRatio: '16:9'
       styles:
@@ -268,7 +262,7 @@ sections:
       styles:
         self:
           textAlign: center
-          textSize: lg:text-xl md:text-lg sm:text-base
+          textSize: 'lg:text-xl md:text-lg sm:text-base'
       type: Badge
     colors: bg-light-fg-dark
     styles:
@@ -276,12 +270,11 @@ sections:
         flexDirection: col
         justifyContent: center
         responsive:
-          - md:p-4
-          - sm:p-2
+          - 'md:p-4'
+          - 'sm:p-2'
       subtitle:
         textAlign: center
-        textSize: lg:text-lg md:text-base sm:text-sm
-
+        textSize: 'lg:text-lg md:text-base sm:text-sm'
   - type: GenericSection
     title:
       text: Innovative Cookstoves Production
@@ -289,17 +282,20 @@ sections:
       styles:
         self:
           textAlign: left
-          textSize: lg:text-3xl md:text-2xl sm:text-xl
+          textSize: 'lg:text-3xl md:text-2xl sm:text-xl'
       type: TitleBlock
     subtitle: Our Factories
-    text: |-
-       Man and Man Enterprise's factories in Kumasi, Ghana, are cornerstones of innovation and sustainability in cookstove technology. Both factories employs 175 staff members, producing up to 30,000 cookstoves per month. These cookstoves are designed to be efficient, reducing charcoal consumption by 50% and lowering greenhouse gas emissions by 47,244 tonnes of CO2 annually.
-
-      
+    text: >-
+      Man and Man Enterprise's factories in Kumasi, Ghana, are cornerstones of
+      innovation and sustainability in cookstove technology. Both factories
+      employs 175 staff members, producing up to 30,000 cookstoves per month.
+      These cookstoves are designed to be efficient, reducing charcoal
+      consumption by 50% and lowering greenhouse gas emissions by 47,244 tonnes
+      of CO2 annually.
     actions: []
     media:
       title: See Our Technology
-      url: https://youtu.be/W37KiK27EIk
+      url: 'https://youtu.be/W37KiK27EIk'
       autoplay: true
       loop: true
       muted: true
@@ -324,12 +320,11 @@ sections:
         flexDirection: row
         justifyContent: center
         responsive:
-          - md:flex-col
-          - md:text-center
+          - 'md:flex-col'
+          - 'md:text-center'
       subtitle:
         textAlign: left
-        textSize: lg:text-lg md:text-base sm:text-sm
-
+        textSize: 'lg:text-lg md:text-base sm:text-sm'
   - type: GenericSection
     title:
       text: Efficient Cookstove Distribution
@@ -337,11 +332,12 @@ sections:
       type: TitleBlock
       styles:
         self:
-          textSize: lg:text-3xl md:text-2xl sm:text-xl
+          textSize: 'lg:text-3xl md:text-2xl sm:text-xl'
     subtitle: Reduce Your Cooking Costs
     text: >
-      Enhance your cooking experience with our efficient biomass cookstoves. Our stoves reduce charcoal consumption by 40%, helping you save money and protect the environment.
-     
+      Enhance your cooking experience with our efficient biomass cookstoves. Our
+      stoves reduce charcoal consumption by 40%, helping you save money and
+      protect the environment.
     actions:
       - label: Get started
         url: /about
@@ -351,8 +347,6 @@ sections:
         type: Button
       - label: See Our Gallery
         url: /our-gallery
-
-        
         showIcon: true
         icon: arrowRight
         iconPosition: right
@@ -368,16 +362,15 @@ sections:
       type: Badge
       styles:
         self:
-          textSize: lg:text-xl md:text-lg sm:text-base
+          textSize: 'lg:text-xl md:text-lg sm:text-base'
     colors: bg-light-fg-dark
     styles:
       self:
         alignItems: center
         responsive:
-          - md:text-center
-          - md:p-4
-          - sm:p-2
-
+          - 'md:text-center'
+          - 'md:p-4'
+          - 'sm:p-2'
   - type: GenericSection
     title:
       text: Community Development
@@ -385,11 +378,11 @@ sections:
       type: TitleBlock
       styles:
         self:
-          textSize: lg:text-3xl md:text-2xl sm:text-xl
+          textSize: 'lg:text-3xl md:text-2xl sm:text-xl'
     subtitle: Empowering Local Communities
     text: >
-      Our community initiatives include training artisans, providing employment, and building essential infrastructure. Join us in making a difference.
-      
+      Our community initiatives include training artisans, providing employment,
+      and building essential infrastructure. Join us in making a difference.
     actions:
       - label: Get started
         url: /about
@@ -397,7 +390,6 @@ sections:
         iconPosition: right
         style: secondary
         type: Button
-     
     media:
       url: /images/community.jpg
       altText: Community Development
@@ -408,18 +400,17 @@ sections:
       type: Badge
       styles:
         self:
-          textSize: lg:text-xl md:text-lg sm:text-base
+          textSize: 'lg:text-xl md:text-lg sm:text-base'
     colors: bg-light-fg-dark
     styles:
       self:
         alignItems: center
         flexDirection: row-reverse
         responsive:
-          - md:flex-col
-          - md:text-center
-          - md:p-4
-          - sm:p-2
-
+          - 'md:flex-col'
+          - 'md:text-center'
+          - 'md:p-4'
+          - 'sm:p-2'
   - type: DividerSection
     title: Divider
     colors: bg-light-fg-dark
@@ -431,32 +422,33 @@ sections:
           - pb-7
           - pr-7
         responsive:
-          - md:pt-4
-          - md:pl-4
-          - md:pb-4
-          - md:pr-4
-          - sm:pt-2
-          - sm:pl-2
-          - sm:pb-2
-          - sm:pr-2
-
+          - 'md:pt-4'
+          - 'md:pl-4'
+          - 'md:pb-4'
+          - 'md:pr-4'
+          - 'sm:pt-2'
+          - 'sm:pl-2'
+          - 'sm:pb-2'
+          - 'sm:pr-2'
   - type: CarouselSection
     title: null
     subtitle: What Our Beneficiaries Say About Us
     items:
       - title: >-
-          “Man and Man's cookstoves have greatly reduced our fuel costs and improved our quality of life.”
+          “Man and Man's cookstoves have greatly reduced our fuel costs and
+          improved our quality of life.”
         tagline: Testimonial 1
         subtitle: 'Akosua Mensah, Kumasi'
         text: >-
-          With the new cookstoves, we use less charcoal and save more money. Plus, it's better for our health and the environment.
+          With the new cookstoves, we use less charcoal and save more money.
+          Plus, it's better for our health and the environment.
         image:
           url: /images/person-placeholder-light.png
           altText: Akosua Mensah
           styles:
             self:
               borderRadius: full
-              textSize: lg:text-lg md:text-base sm:text-sm
+              textSize: 'lg:text-lg md:text-base sm:text-sm'
           type: ImageBlock
         actions: []
         colors: bg-neutralAlt-fg-dark
@@ -472,25 +464,27 @@ sections:
             flexDirection: row
             justifyContent: center
             responsive:
-              - md:flex-col
-              - md:text-center
-              - md:p-4
-              - sm:p-2
+              - 'md:flex-col'
+              - 'md:text-center'
+              - 'md:p-4'
+              - 'sm:p-2'
         type: FeaturedItem
-
       - title: >-
-          "The training programs have provided me with new skills and a steady income."
+          "The training programs have provided me with new skills and a steady
+          income."
         tagline: Testimonial 2
         subtitle: 'Yaw Bediako, Kumasi'
         text: >-
-          Thanks to Man and Man, I now have a job that pays well above the minimum wage, and I've learned valuable skills that I can use in the future.
+          Thanks to Man and Man, I now have a job that pays well above the
+          minimum wage, and I've learned valuable skills that I can use in the
+          future.
         image:
           url: /images/person-placeholder-light.png
           altText: Yaw Bediako
           styles:
             self:
               borderRadius: full
-              textSize: lg:text-lg md:text-base sm:text-sm
+              textSize: 'lg:text-lg md:text-base sm:text-sm'
           type: ImageBlock
         actions: []
         colors: bg-neutralAlt-fg-dark
@@ -506,25 +500,27 @@ sections:
             flexDirection: row
             justifyContent: center
             responsive:
-              - md:flex-col
-              - md:text-center
-              - md:p-4
-              - sm:p-2
+              - 'md:flex-col'
+              - 'md:text-center'
+              - 'md:p-4'
+              - 'sm:p-2'
         type: FeaturedItem
-
       - title: >-
-          "The community projects have transformed our lives with better infrastructure and support."
+          "The community projects have transformed our lives with better
+          infrastructure and support."
         tagline: Testimonial 3
         subtitle: 'Ama Twumasi, Kumasi'
         text: >-
-          From housing to healthcare, the support from Man and Man has been invaluable to our community. We feel more secure and hopeful for the future.
+          From housing to healthcare, the support from Man and Man has been
+          invaluable to our community. We feel more secure and hopeful for the
+          future.
         image:
           url: /images/person-placeholder-light.png
           altText: Ama Twumasi
           styles:
             self:
               borderRadius: full
-              textSize: lg:text-lg md:text-base sm:text-sm
+              textSize: 'lg:text-lg md:text-base sm:text-sm'
           type: ImageBlock
         actions: []
         colors: bg-neutralAlt-fg-dark
@@ -540,25 +536,24 @@ sections:
             flexDirection: row
             justifyContent: center
             responsive:
-              - md:flex-col
-              - md:text-center
-              - md:p-4
-              - sm:p-2
+              - 'md:flex-col'
+              - 'md:text-center'
+              - 'md:p-4'
+              - 'sm:p-2'
         type: FeaturedItem
-
-      - title: >-
-          “Our new cookstove is a game-changer for our family’s daily life.”
+      - title: “Our new cookstove is a game-changer for our family’s daily life.”
         tagline: Testimonial 4
         subtitle: 'Kofi Asare, Kumasi'
         text: >-
-          We are saving money on charcoal and contributing to a healthier environment. The cookstove's efficiency is impressive.
+          We are saving money on charcoal and contributing to a healthier
+          environment. The cookstove's efficiency is impressive.
         image:
           url: /images/person-placeholder-light.png
           altText: Kofi Asare
           styles:
             self:
               borderRadius: full
-              textSize: lg:text-lg md:text-base sm:text-sm
+              textSize: 'lg:text-lg md:text-base sm:text-sm'
           type: ImageBlock
         actions: []
         colors: bg-neutralAlt-fg-dark
@@ -574,25 +569,26 @@ sections:
             flexDirection: row
             justifyContent: center
             responsive:
-              - md:flex-col
-              - md:text-center
-              - md:p-4
-              - sm:p-2
+              - 'md:flex-col'
+              - 'md:text-center'
+              - 'md:p-4'
+              - 'sm:p-2'
         type: FeaturedItem
-
       - title: >-
-          "Joining the artisan training program has been a life-changing experience."
+          "Joining the artisan training program has been a life-changing
+          experience."
         tagline: Testimonial 5
         subtitle: 'Kwame Opoku, Kumasi'
         text: >-
-          I am now equipped with skills that not only provide me with a steady income but also help me contribute to my community's growth.
+          I am now equipped with skills that not only provide me with a steady
+          income but also help me contribute to my community's growth.
         image:
           url: /images/person-placeholder-light.png
           altText: Kwame Opoku
           styles:
             self:
               borderRadius: full
-              textSize: lg:text-lg md:text-base sm:text-sm
+              textSize: 'lg:text-lg md:text-base sm:text-sm'
           type: ImageBlock
         actions: []
         colors: bg-neutralAlt-fg-dark
@@ -608,25 +604,26 @@ sections:
             flexDirection: row
             justifyContent: center
             responsive:
-              - md:flex-col
-              - md:text-center
-              - md:p-4
-              - sm:p-2
+              - 'md:flex-col'
+              - 'md:text-center'
+              - 'md:p-4'
+              - 'sm:p-2'
         type: FeaturedItem
-
       - title: >-
-          “The stoves are efficient and eco-friendly, making a real difference in our community.”
+          “The stoves are efficient and eco-friendly, making a real difference
+          in our community.”
         tagline: Testimonial 6
         subtitle: 'Adwoa Gyamfi, Kumasi'
         text: >-
-          Our family has seen significant savings on fuel costs, and we are proud to be using a product that helps preserve our forests.
+          Our family has seen significant savings on fuel costs, and we are
+          proud to be using a product that helps preserve our forests.
         image:
           url: /images/img-placeholder-dark.png
           altText: Adwoa Gyamfi
           styles:
             self:
               borderRadius: full
-              textSize: lg:text-lg md:text-base sm:text-sm
+              textSize: 'lg:text-lg md:text-base sm:text-sm'
           type: ImageBlock
         actions: []
         colors: bg-dark-fg-light
@@ -642,10 +639,10 @@ sections:
             flexDirection: row
             justifyContent: center
             responsive:
-              - md:flex-col
-              - md:text-center
-              - md:p-4
-              - sm:p-2
+              - 'md:flex-col'
+              - 'md:text-center'
+              - 'md:p-4'
+              - 'sm:p-2'
         type: FeaturedItem
     elementId: ''
     variant: next-prev-nav
@@ -655,10 +652,7 @@ sections:
         justifyContent: center
       subtitle:
         textAlign: center
-        textSize: lg:text-xl md:text-lg sm:text-base
-
-  
-
+        textSize: 'lg:text-xl md:text-lg sm:text-base'
   - type: GenericSection
     title:
       text: Contact Us
@@ -666,11 +660,11 @@ sections:
       type: TitleBlock
       styles:
         self:
-          textSize: lg:text-3xl md:text-2xl sm:text-xl
+          textSize: 'lg:text-3xl md:text-2xl sm:text-xl'
     subtitle: Get in Touch
-    text: |-
-      Have any questions or want to learn more about our initiatives? Reach out to us using the form below.
-     
+    text: >-
+      Have any questions or want to learn more about our initiatives? Reach out
+      to us using the form below.
     media:
       fields:
         - name: name
@@ -682,7 +676,7 @@ sections:
           type: TextFormControl
           styles:
             self:
-              textSize: lg:text-lg md:text-base sm:text-sm
+              textSize: 'lg:text-lg md:text-base sm:text-sm'
         - name: email
           label: Email
           hideLabel: true
@@ -692,7 +686,7 @@ sections:
           type: EmailFormControl
           styles:
             self:
-              textSize: lg:text-lg md:text-base sm:text-sm
+              textSize: 'lg:text-lg md:text-base sm:text-sm'
         - name: message
           label: Message
           hideLabel: true
@@ -701,7 +695,7 @@ sections:
           type: TextareaFormControl
           styles:
             self:
-              textSize: lg:text-lg md:text-base sm:text-sm
+              textSize: 'lg:text-lg md:text-base sm:text-sm'
       elementId: contact-form
       styles:
         self:
@@ -714,7 +708,7 @@ sections:
           borderStyle: solid
           borderWidth: 1
           borderRadius: large
-          textSize: lg:text-lg md:text-base sm:text-sm
+          textSize: 'lg:text-lg md:text-base sm:text-sm'
       type: FormBlock
     submitButton:
       type: SubmitButtonFormControl
@@ -726,21 +720,21 @@ sections:
       elementId: null
       styles:
         self:
-          textSize: lg:text-lg md:text-base sm:text-sm
+          textSize: 'lg:text-lg md:text-base sm:text-sm'
     badge:
       label: Contact Us
       color: text-primary
       type: Badge
       styles:
         self:
-          textSize: lg:text-xl md:text-lg sm:text-base
+          textSize: 'lg:text-xl md:text-lg sm:text-base'
     colors: bg-light-fg-dark
-
 seo:
   metaTitle: Man and Man Enterprise
-  metaDescription: Discover Man and Man Enterprise's innovative and efficient cookstoves designed to enhance cooking experiences while reducing environmental impact.
+  metaDescription: >-
+    Discover Man and Man Enterprise's innovative and efficient cookstoves
+    designed to enhance cooking experiences while reducing environmental impact.
   socialImage: /images/main-hero.jpg
   type: Seo
-
 type: PageLayout
 ---
