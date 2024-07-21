@@ -72,7 +72,7 @@ sections:
       - type: FeaturedItem
         title: Environmental Impact
         text: |
-          Our cookstoves have achieved an annual reduction of 47,244 tons of CO2, showcasing our commitment to creating a cleaner and healthier environment for all.
+          Our cookstoves have achieved an annual reduction of 1M+ tons of CO2, showcasing our commitment to creating a cleaner and healthier environment for all.
         image:
           url: /images/environmental-impact.jpg
           altText: Environmental Impact

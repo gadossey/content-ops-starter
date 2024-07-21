@@ -99,10 +99,10 @@ sections:
               borderRadius: x-large
 
       - type: FeaturedItem
-        title: 47,244 Tons CO2 Reduction
+        title: 1M+ Tons CO2 Reduction
         subtitle: Environmental Impact
         text: >-
-          Our improved cookstoves have significantly reduced greenhouse gas emissions, with an annual reduction of 47,244 tons of CO2.
+          Our improved cookstoves have significantly reduced greenhouse gas emissions, with an annual reduction of 1M+ tons of CO2.
         image:
           url: /images/icon2.svg
           altText: CO2 Reduction
@@ -293,7 +293,7 @@ sections:
       type: TitleBlock
     subtitle: Our Factories
     text: |-
-       Man and Man Enterprise's factories in Kumasi, Ghana, are cornerstones of innovation and sustainability in cookstove technology. Both factories employs 175 staff members, producing up to 30,000 cookstoves per month. These cookstoves are designed to be efficient, reducing charcoal consumption by 50% and lowering greenhouse gas emissions by 47,244 tonnes of CO2 annually.
+       Man and Man Enterprise's factories in Kumasi, Ghana, are cornerstones of innovation and sustainability in cookstove technology. Both factories employs 175 staff members, producing up to 30,000 cookstoves per month. These cookstoves are designed to be efficient, reducing charcoal consumption by 50% and lowering greenhouse gas emissions by 1M+ tonnes of CO2 annually.
 
       
     actions: []
