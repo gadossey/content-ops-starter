@@ -75,6 +75,67 @@ sections:
           - pr-8
       subtitle:
         textAlign: center
+  - type: FeaturedItemsSection
+    title:
+      text: Our Projects Gallery
+      color: text-dark
+      type: TitleBlock
+    items:
+      - type: FeaturedItem
+        image:
+          url: /images/gallery/project1.jpg
+          altText: Project 1
+          type: ImageBlock
+      - type: FeaturedItem
+        image:
+          url: /images/gallery/project2.jpg
+          altText: Project 2
+          type: ImageBlock
+      - type: FeaturedItem
+        image:
+          url: /images/gallery/project3.jpg
+          altText: Project 3
+          type: ImageBlock
+      - type: FeaturedItem
+        image:
+          url: /images/gallery/project4.jpg
+          altText: Project 4
+          type: ImageBlock
+      - type: FeaturedItem
+        image:
+          url: /images/gallery/project5.jpg
+          altText: Project 5
+          type: ImageBlock
+      - type: FeaturedItem
+        image:
+          url: /images/gallery/project6.jpg
+          altText: Project 6
+          type: ImageBlock
+      - type: FeaturedItem
+        image:
+          url: /images/gallery/project7.jpg
+          altText: Project 7
+          type: ImageBlock
+      - type: FeaturedItem
+        image:
+          url: /images/gallery/project8.jpg
+          altText: Project 8
+          type: ImageBlock
+      - type: FeaturedItem
+        image:
+          url: /images/gallery/project9.jpg
+          altText: Project 9
+          type: ImageBlock
+    elementId: projects-gallery
+    colors: bg-light-fg-dark
+    styles:
+      self:
+        justifyContent: center
+        padding:
+          - pt-8
+          - pb-8
+          - pl-8
+          - pr-8
 seo:
   metaTitle: Our Gallery - Man and Man Enterprise
   metaDescription: >-
