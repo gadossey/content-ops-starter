@@ -125,6 +125,7 @@ sections:
         text: |
           **Community Engagement Initiatives**: This project implements subsidized stove programs for women over 50 and training programs for unemployed youth in the Western region.
           [Learn more](https://registry.goldstandard.org/projects/details/306)
+
         image:
           url: /images/community-engagement.jpg
           altText: Northern Region Project
@@ -139,10 +140,10 @@ sections:
               - pr-4
 
       - type: FeaturedItem
-        title: Nationwide, Ghana
+        title: Nationwide, Ghana -VPA001
         text: |
           **Carbon Credit Programs**: Two carbon programs offsetting over 400,000 tonnes of CO2 emissions annually across Ghana.
-          [Learn more](https://cdm.unfccc.int/ProgrammeOfActivities/cpa_db/8OVGJ6T0PLBI3K2RNCY917ZWUFS54X/view)
+          [Learn more](https://registry.goldstandard.org/projects/details/306)
         image:
           url: /images/carbon-credits.jpg
           altText: Nationwide Project
