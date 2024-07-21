@@ -129,10 +129,10 @@ sections:
               - sm:p-2
 
       - type: FeaturedItem
-        title: 70,000 Cookstoves Sold
+        title: 1M+Cookstoves Sold
         subtitle: Wide Reach
         text: >-
-          We have successfully sold over 70,000 cookstoves, positively impacting numerous households and reducing deforestation.
+          We have successfully sold over 1M+cookstoves, positively impacting numerous households and reducing deforestation.
         image:
           url: /images/icon3.svg
           altText: Cookstoves Sold

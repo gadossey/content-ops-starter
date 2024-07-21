@@ -55,7 +55,7 @@ sections:
       - type: FeaturedItem
         title: Product Launch and Distribution
         text: |
-          Since our inception, we have successfully sold over 70,000 cookstoves. This achievement has positively impacted numerous households, contributing to a significant reduction in deforestation and promoting environmental sustainability.
+          Since our inception, we have successfully sold over 1M+cookstoves. This achievement has positively impacted numerous households, contributing to a significant reduction in deforestation and promoting environmental sustainability.
         image:
           url: /images/product-launch.jpg
           altText: Product Launch
