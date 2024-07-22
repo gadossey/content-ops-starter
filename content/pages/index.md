@@ -26,7 +26,7 @@ sections:
         type: Button
       
     media:
-      url: /images/main-hero.jpg
+      url: /images/main-hero.webp
       altText: Enhancing Cooking Efficiency for Every Household
       elementId: ''
       type: ImageBlock
