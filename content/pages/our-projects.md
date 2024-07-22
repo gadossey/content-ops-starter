@@ -12,7 +12,7 @@ sections:
     elementId: our-projects
     colors: text-white 
     backgroundImage:
-      url: /images/background-projects-large.png
+      url: /images/background-welcome-large.png
       position: center
       size: cover
       repeat: no-repeat
