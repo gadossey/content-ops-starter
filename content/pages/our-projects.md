@@ -120,24 +120,7 @@ sections:
               - pl-4
               - pr-4
 
-      - type: FeaturedItem
-        title: Western Region, Ghana -VPA002
-        text: |
-          **Community Engagement Initiatives**: This project implements subsidized stove programs for women over 50 and training programs for unemployed youth in the Western region.
-          [Learn more](https://registry.goldstandard.org/projects/details/306)
-
-        image:
-          url: /images/community-engagement.jpg
-          altText: Northern Region Project
-          type: ImageBlock
-        colors: bg-neutralAlt-fg-dark
-        styles:
-          self:
-            padding:
-              - pt-4
-              - pb-4
-              - pl-4
-              - pr-4
+     
 
       - type: FeaturedItem
         title: Nationwide, Ghana -VPA001
