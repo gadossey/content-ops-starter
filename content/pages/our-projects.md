@@ -158,13 +158,13 @@ sections:
               - pr-4
 
       - type: FeaturedItem
-        title: Nationwide, Ghana
+        title: BRONG-AHAFO REGION, Ghana
         text: |
-          **Improved Cookstoves Programme**: This project distributes efficient cookstoves nationwide to reduce emissions and improve air quality.
+          **Improved Cookstoves Programme**: This project distributes efficient cookstoves in BRONG-AHAFO REGION to reduce emissions and improve air quality.
           [Learn more](https://registry.verra.org/app/projectDetail/VCS/3650)
         image:
           url: /images/nationwide-project.jpg
-          altText: Nationwide Project
+          altText: BRONG-AHAFO REGION
           type: ImageBlock
         colors: bg-neutralAlt-fg-dark
         styles:
