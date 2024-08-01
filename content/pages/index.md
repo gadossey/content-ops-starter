@@ -293,7 +293,7 @@ sections:
       type: TitleBlock
     subtitle: Our Factories
     text: |-
-       Man and Man Enterprise's factories in Kumasi, Ghana, are cornerstones of innovation and sustainability in cookstove technology. Both factories employs 175 staff members, producing up to 30,000 cookstoves per month. These cookstoves are designed to be efficient, reducing charcoal consumption by 50% and lowering greenhouse gas emissions by 1M+ tonnes of CO2 annually.
+       Man and Man Enterprise's factories in Kumasi, Ghana, are cornerstones of innovation and sustainability in cookstove technology. Both factories employs 200+ staff members, producing up to 30,000 cookstoves per month. These cookstoves are designed to be efficient, reducing charcoal consumption by 50% and lowering greenhouse gas emissions by 1M+ tonnes of CO2 annually.
 
       
     actions: []
