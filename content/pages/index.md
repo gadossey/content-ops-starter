@@ -99,10 +99,10 @@ sections:
               borderRadius: x-large
 
       - type: FeaturedItem
-        title: 5M+ Tons CO2 Reduction
+        title: 2M+ Tons CO2 Reduction
         subtitle: Environmental Impact
         text: >-
-          Our improved cookstoves have significantly reduced greenhouse gas emissions, with an annual reduction of 5M+ tons of CO2.
+          Our improved cookstoves have significantly reduced greenhouse gas emissions, with an annual reduction of 2M+ tons of CO2.
         image:
           url: /images/icon2.svg
           altText: CO2 Reduction
