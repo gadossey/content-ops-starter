@@ -1,7 +1,7 @@
 {
     "logo": {
         "url": "/images/logo-white.jpg",
-        "altText": "Man and Man Enterprise Logo",
+        "altText": "Man and Man Enterprise Limited Logo",
         "type": "ImageBlock"
     },
     "text": "Empowering communities through efficient and sustainable cooking solutions",
@@ -63,7 +63,7 @@
             "type": "Link"
         }
     ],
-    "copyrightText": "Powered by [Man and Man Enterprise](https://www.manandmanenterprise.com)",
+    "copyrightText": "Powered by [Man and Man Enterprise Limited](https://www.manandmanenterprise.com)",
     "colors": "bg-dark-fg-light",
     "type": "Footer"
 }

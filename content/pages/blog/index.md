@@ -31,9 +31,9 @@ styles:
   title:
     textAlign: center
 seo:
-  metaTitle: Blog - Man and Man Enterprise
+  metaTitle: Blog - Man and Man Enterprise Limited
   metaDescription: >
-    Welcome to the blog of Man and Man Enterprise, where we share insights on our innovative and efficient cookstoves, sustainability efforts, and impact stories from Ghana.
+    Welcome to the blog of Man and Man Enterprise Limited, where we share insights on our innovative and efficient cookstoves, sustainability efforts, and impact stories from Ghana.
   socialImage: /images/cookstove.jpg
   type: Seo
 type: PostFeedLayout

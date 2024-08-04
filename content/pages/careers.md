@@ -12,7 +12,7 @@ sections:
   type: TitleBlock
   subtitle: Transforming lives through sustainable solutions
   text: >
-  At Man and Man Enterprise, we are committed to transforming lives by providing innovative and sustainable cooking solutions. Our team works closely together to design, produce, and distribute efficient cookstoves that reduce charcoal consumption by up to 40%. These efforts not only help save costs for our users but also contribute to the preservation of forests and the reduction of greenhouse gas emissions.
+  At Man and Man Enterprise Limited, we are committed to transforming lives by providing innovative and sustainable cooking solutions. Our team works closely together to design, produce, and distribute efficient cookstoves that reduce charcoal consumption by up to 40%. These efforts not only help save costs for our users but also contribute to the preservation of forests and the reduction of greenhouse gas emissions.
   actions:
   - label: Learn more
     url: /
@@ -123,7 +123,7 @@ sections:
   type: FeaturedItemsSection
   seo:
   metaTitle: About Us
-  metaDescription: Learn more about Man and Man Enterprise, our mission, team, and impact on communities and the environment through sustainable cooking solutions.
+  metaDescription: Learn more about Man and Man Enterprise Limited, our mission, team, and impact on communities and the environment through sustainable cooking solutions.
   socialImage: /images/main-hero.jpg
   type: Seo
   type: PageLayout

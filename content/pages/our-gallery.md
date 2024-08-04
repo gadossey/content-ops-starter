@@ -137,9 +137,9 @@ sections:
           - pl-8
           - pr-8
 seo:
-  metaTitle: Our Gallery - Man and Man Enterprise
+  metaTitle: Our Gallery - Man and Man Enterprise Limited
   metaDescription: >-
-    Explore the gallery of Man and Man Enterprise, showcasing our work,
+    Explore the gallery of Man and Man Enterprise Limited, showcasing our work,
     community initiatives, and events. See how we are making a difference in
     Ghana.
   socialImage: /images/logo-white.svg

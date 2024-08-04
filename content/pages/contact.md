@@ -82,7 +82,7 @@ sections:
 
 seo:
   metaTitle: Contact Us
-  metaDescription: Discover Man and Man Enterprise's innovative and efficient cookstoves designed to enhance cooking experiences while reducing environmental impact.
+  metaDescription: Discover Man and Man Enterprise Limited's innovative and efficient cookstoves designed to enhance cooking experiences while reducing environmental impact.
   socialImage: /images/main-hero.jpg
   type: Seo
 

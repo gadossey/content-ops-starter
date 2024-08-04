@@ -7,13 +7,13 @@
             "data": {
                 "logo": {
                     "url": "/images/logo-white.jpg",
-                    "altText": "Man and Man Enterprise Logo",
+                    "altText": "Man and Man Enterprise Limited Logo",
                     "elementId": null,
                     "styles": null,
                     "$$type": "ImageBlock"
                 },
                 "title": null,
-                "text": "Man and Man Enterprise is dedicated to promoting and disseminating improved cookstoves in urban poor communities in Ghana. Our mission is to reduce charcoal consumption and greenhouse gas emissions, while improving health and economic outcomes for our users.",
+                "text": "Man and Man Enterprise Limited is dedicated to promoting and disseminating improved cookstoves in urban poor communities in Ghana. Our mission is to reduce charcoal consumption and greenhouse gas emissions, while improving health and economic outcomes for our users.",
                 "primaryLinks": {
                     "title": "Product",
                     "links": [
@@ -119,7 +119,7 @@
                         "$$type": "Link"
                     }
                 ],
-                "copyrightText": "© 2024 Man and Man Enterprise. All rights reserved.",
+                "copyrightText": "© 2024 Man and Man Enterprise Limited. All rights reserved.",
                 "colors": "bg-dark-fg-light",
                 "styles": null
             },

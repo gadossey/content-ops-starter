@@ -12,7 +12,7 @@ sections:
           textSize: lg:text-4xl md:text-3xl sm:text-2xl
     subtitle: Sustainable and Efficient Cookstoves
     text: >
-      Man and Man Enterprise is committed to providing high-quality, efficient cookstoves that reduce fuel consumption and emissions, enhancing the cooking experience for households and businesses in Ghana.
+      Man and Man Enterprise Limited is committed to providing high-quality, efficient cookstoves that reduce fuel consumption and emissions, enhancing the cooking experience for households and businesses in Ghana.
     
     actions:
       - label: Our Journey
@@ -293,7 +293,7 @@ sections:
       type: TitleBlock
     subtitle: Our Factories
     text: |-
-       Man and Man Enterprise's factories in Kumasi, Ghana, are cornerstones of innovation and sustainability in cookstove technology. Both factories employs 200+ staff members, producing up to 30,000 cookstoves per month. These cookstoves are designed to be efficient, reducing charcoal consumption by 50% and lowering greenhouse gas emissions by 1M+ tonnes of CO2 annually.
+       Man and Man Enterprise Limited's factories in Kumasi, Ghana, are cornerstones of innovation and sustainability in cookstove technology. Both factories employs 200+ staff members, producing up to 30,000 cookstoves per month. These cookstoves are designed to be efficient, reducing charcoal consumption by 50% and lowering greenhouse gas emissions by 1M+ tonnes of CO2 annually.
 
       
     actions: []
@@ -737,8 +737,8 @@ sections:
     colors: bg-light-fg-dark
 
 seo:
-  metaTitle: Man and Man Enterprise
-  metaDescription: Discover Man and Man Enterprise's innovative and efficient cookstoves designed to enhance cooking experiences while reducing environmental impact.
+  metaTitle: Man and Man Enterprise Limited
+  metaDescription: Discover Man and Man Enterprise Limited's innovative and efficient cookstoves designed to enhance cooking experiences while reducing environmental impact.
   socialImage: /images/main-hero.jpg
   type: Seo
 

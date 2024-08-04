@@ -8,7 +8,7 @@ sections:
       color: text-white 
       type: TitleBlock
     text: |
-      Man and Man Enterprise has successfully completed several impactful projects across different regions in Ghana. Our initiatives focus on improving cooking efficiency, reducing emissions, and enhancing community well-being. Here is a summary of our key projects by region.
+      Man and Man Enterprise Limited has successfully completed several impactful projects across different regions in Ghana. Our initiatives focus on improving cooking efficiency, reducing emissions, and enhancing community well-being. Here is a summary of our key projects by region.
     elementId: our-projects
     colors: text-white 
     backgroundImage:
@@ -31,7 +31,7 @@ sections:
       color: text-dark
       type: TitleBlock
     text: |
-      Man and Man Enterprise has undertaken several projects aimed at promoting sustainability and improving lives. Below is a summary of these projects categorized by region.
+      Man and Man Enterprise Limited has undertaken several projects aimed at promoting sustainability and improving lives. Below is a summary of these projects categorized by region.
     elementId: project-summary
     colors: bg-neutral-fg-dark
     styles:
@@ -176,8 +176,8 @@ sections:
           - pr-8
 
 seo:
-  metaTitle: Our Projects - Man and Man Enterprise
-  metaDescription: Discover the impactful projects by Man and Man Enterprise, focusing on environmental sustainability and community development. Explore our key milestones, community initiatives, and global partnerships.
+  metaTitle: Our Projects - Man and Man Enterprise Limited
+  metaDescription: Discover the impactful projects by Man and Man Enterprise Limited, focusing on environmental sustainability and community development. Explore our key milestones, community initiatives, and global partnerships.
   socialImage: /images/projects-hero.jpg
   type: Seo
 

@@ -900,18 +900,18 @@
                 ],
                 "isDraft": null,
                 "seo": {
-                    "metaTitle": "Man and Man Enterprise - Empowering Communities with Efficient Cookstoves",
-                    "metaDescription": "Discover how Man and Man Enterprise is transforming lives in Ghana through the production and distribution of efficient biomass cookstoves, reducing costs, and promoting environmental conservation.",
+                    "metaTitle": "Man and Man Enterprise Limited - Empowering Communities with Efficient Cookstoves",
+                    "metaDescription": "Discover how Man and Man Enterprise Limited is transforming lives in Ghana through the production and distribution of efficient biomass cookstoves, reducing costs, and promoting environmental conservation.",
                     "addTitleSuffix": true,
                     "socialImage": "/images/efficient-cookstove.jpg",
                     "metaTags": [
                         {
                             "name": "keywords",
-                            "content": "Man and Man Enterprise, efficient cookstoves, Ghana, environmental conservation, community empowerment, biomass stoves, clean energy"
+                            "content": "Man and Man Enterprise Limited, efficient cookstoves, Ghana, environmental conservation, community empowerment, biomass stoves, clean energy"
                         },
                         {
                             "name": "author",
-                            "content": "Man and Man Enterprise"
+                            "content": "Man and Man Enterprise Limited"
                         }
                     ],
                     "$$type": "Seo"
